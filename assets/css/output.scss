@@ -1,13 +1,32 @@
 // VARIABLES //
 
+//colours
 $primary-color: #5BC0EB;
 $secondary-color: #FA7921;
 $default-link-color: #FDE74C;
 $navigation-color: #333333;
 
+//styling
 $default-text-shadow: 1px 1px #000;
 $default-transition: all 0.2s ease-in-out;
 $default-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+
+//buttons
+
+.btn {
+    padding: 5px 10px;
+
+
+    &--primary {
+        background-image: linear-gradient($primary-color, lighten($primary-color, 20%));
+        color: $secondary-color !important;
+    }
+
+    &--secondary {
+        background-image: linear-gradient($secondary-color, lighten($secondary-color, 20%));
+        color: $primary-color !important;
+    }
+}
 
 //main-header
 
