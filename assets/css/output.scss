@@ -8,6 +8,48 @@ $default-text-shadow: 1px 1px #000;
 $default-transition: all 0.2s ease-in-out;
 $default-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 
+//main-header
+
+.main-header {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+
+    &__nav {
+        display: flex;
+        list-style: none;
+        padding: 20px 0;
+
+        &__item {
+            padding: 0 0 0 40px;
+            font-size: 18px;
+
+            a {
+                color: $default-link-color;
+
+                &:hover {
+                    color: darken($default-link-color, 10%);
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    &__nav-bars {
+        padding: 20px;
+
+        i {
+            color: $primary-color;
+            font-size: 35px;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+    }
+}
+
 //main-body
 
 .main-body {
