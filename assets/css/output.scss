@@ -28,6 +28,17 @@ $default-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
     }
 }
 
+//base-styles
+
+ul,ol,li {
+    margin: 0 !important;
+    padding: 0;
+}
+
+.layout-padding {
+    padding: 75px 0;
+}
+
 //main-header
 
 .main-header {

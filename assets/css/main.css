@@ -10,6 +10,15 @@
   color: #5BC0EB !important;
 }
 
+ul, ol, li {
+  margin: 0 !important;
+  padding: 0;
+}
+
+.layout-padding {
+  padding: 75px 0;
+}
+
 .main-header {
   width: 100%;
   position: absolute;
