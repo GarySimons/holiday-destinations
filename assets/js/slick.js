@@ -23,7 +23,7 @@ $('.packages__slick').slick({
         {
             breakpoint: 1024,
             settings: {
-                slidesToShow: 4
+                slidesToShow: 3
             }
         },
         {
