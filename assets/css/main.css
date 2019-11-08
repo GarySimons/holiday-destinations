@@ -1,17 +1,32 @@
-/* Error: Expected digit.
- *   ,
- * 8 | .main-body {
- *   |  ^
- *   '
- *   assets/css/output.scss 8:2  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected digit.\a   \2577 \a 8 \2502  .main-body {\a   \2502   ^\a   \2575 \a   assets/css/output.scss 8:2  root stylesheet";
+.main-body__slick__slide {
+  height: 100vh !important;
+  background-position: center;
 }
+.main-body__slick__slide::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+}
+.main-body__slick__slide__text {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-body__content {
+  padding: 75px 0;
+}
+.main-body__content__copy {
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.main-body__content__copy h1 {
+  padding-bottom: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */
