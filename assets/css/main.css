@@ -1,5 +1,5 @@
 .main-body__slick__slide {
-  height: 70vh !important;
+  height: 100vh !important;
   background-position: center;
 }
 .main-body__slick__slide::before {
