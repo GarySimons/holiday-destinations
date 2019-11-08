@@ -1,64 +1,17 @@
-.main-header {
-  width: 100%;
-  position: absolute;
-  z-index: 1;
-}
-.main-header__nav {
-  display: flex;
-  list-style: none;
-  padding: 20px 0;
-}
-.main-header__nav__item {
-  padding: 0 0 0 40px;
-  font-size: 18px;
-}
-.main-header__nav__item a {
-  color: #FDE74C;
-}
-.main-header__nav__item a:hover {
-  color: #fce01a;
-  text-decoration: none;
-}
-.main-header__nav-bars {
-  padding: 20px;
-}
-.main-header__nav-bars i {
-  color: #5BC0EB;
-  font-size: 35px;
-}
-.main-header__nav-bars i:hover {
-  cursor: pointer;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 56 |     background: $navigation-color;
+ *    |                 ^^^^^^^^^^^^^^^^^
+ *    '
+ *   assets/css/output.scss 56:17  root stylesheet */
 
-.main-body__slick__slide {
-  height: 100vh !important;
-  background-position: center;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 56 \2502      background: $navigation-color;\a    \2502                  ^^^^^^^^^^^^^^^^^\a    \2575 \a   assets/css/output.scss 56:17  root stylesheet";
 }
-.main-body__slick__slide::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  position: absolute;
-}
-.main-body__slick__slide__text {
-  position: absolute;
-  z-index: 1;
-  color: white;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.main-body__content {
-  padding: 75px 0;
-}
-.main-body__content__copy {
-  max-width: 100%;
-  margin: auto;
-  text-align: center;
-}
-.main-body__content__copy h1 {
-  padding-bottom: 20px;
-}
-
-/*# sourceMappingURL=main.css.map */
