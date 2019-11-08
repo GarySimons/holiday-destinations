@@ -14,17 +14,28 @@ $default-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 //buttons
 
 .btn {
-    padding: 5px 10px;
+    padding: 15px 30px;
+    font-size: 20px;
+    transition: $default-transition;
+    text-shadow: $default-text-shadow;
 
 
     &--primary {
         background-image: linear-gradient($primary-color, lighten($primary-color, 20%));
-        color: $secondary-color !important;
+        color: lighten($default-link-color, 10%)  !important;
+
+        &:hover {
+            transform: scale(1.05);
+        }
     }
 
     &--secondary {
         background-image: linear-gradient($secondary-color, lighten($secondary-color, 20%));
-        color: $primary-color !important;
+        color: lighten($default-link-color, 10%)  !important;
+
+        &:hover {
+            transform: scale(1.05);
+        }
     }
 }
 
@@ -207,13 +218,20 @@ ul,ol,li {
                 z-index: 1;
                 color: white;
                 top: 50%;
+                width: 30%;
+                text-align: center;
                 left: 50%;
                 transform: translate(-50%, -50%);
+
+                a {
+                    width: 55%;
+                    margin-top: 10px;
+                }
             }
         }
     }
 
-    // overlay content
+    // introductory content
 
     &__content {
         padding: 75px 0;

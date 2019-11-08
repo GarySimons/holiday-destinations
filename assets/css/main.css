@@ -1,13 +1,22 @@
 .btn {
-  padding: 5px 10px;
+  padding: 15px 30px;
+  font-size: 20px;
+  transition: all 0.2s ease-in-out;
+  text-shadow: 1px 1px #000;
 }
 .btn--primary {
   background-image: linear-gradient(#5BC0EB, #b6e3f6);
-  color: #FA7921 !important;
+  color: #feee7e !important;
+}
+.btn--primary:hover {
+  transform: scale(1.05);
 }
 .btn--secondary {
   background-image: linear-gradient(#FA7921, #fcb585);
-  color: #5BC0EB !important;
+  color: #feee7e !important;
+}
+.btn--secondary:hover {
+  transform: scale(1.05);
 }
 
 ul, ol, li {
@@ -153,8 +162,14 @@ ul, ol, li {
   z-index: 1;
   color: white;
   top: 50%;
+  width: 30%;
+  text-align: center;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.main-body__slick__slide__text a {
+  width: 55%;
+  margin-top: 10px;
 }
 .main-body__content {
   padding: 75px 0;
