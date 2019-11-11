@@ -225,6 +225,37 @@ ul, ol, li {
 .main-body__content__copy h1 {
   padding-bottom: 20px;
 }
+.main-body__contact__title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.main-body__contact__form__input {
+  display: block;
+  width: 50%;
+  margin: auto;
+  padding: 5px 0px;
+  margin-top: 15px;
+}
+.main-body__contact__form__hidden {
+  display: none;
+}
+.main-body__contact__form__submit {
+  display: block !important;
+  width: 50%;
+  margin: auto;
+  margin-top: 15px;
+}
+.main-body__contact label {
+  width: 50%;
+  margin: auto;
+  display: block;
+  padding-top: 15px;
+}
+.main-body__contact label span {
+  color: red;
+  font-size: 20px;
+  padding-left: 4px;
+}
 
 .packages {
   padding-top: 75px;
