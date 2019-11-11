@@ -204,7 +204,29 @@
         </div>
     </div>
 
-        <!--  -->
+    <!-- Contact Us  -->
+
+    <div class="main-body__contact layout-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="main-body__contact__title">Get In Touch</h2>
+                    <form name="main-body__contact__form" onsubmit="return formCheck()">
+                        <label for="enter-name">Name<span>*</span></label>
+                        <input class="main-body__contact__form__input" type="text" name="enter-name" required>
+                        <input class="main-body__contact__form__hidden" type="text" name="honey-pot">
+                        <label for="enter-party-size">Enter Party Size<span>*</span></label>
+                        <input class="main-body__contact__form__input" type="number" name="enter-party-size" required>
+                        <label for="enter-telephone">Enter Telephone Number<span>*</span></label>
+                        <input class="main-body__contact__form__input" type="number" name="enter-telephone" required>
+                        <label for="enter-email">Enter Email<span>*</span></label>
+                        <input class="main-body__contact__form__input" type="text" name="enter-email" required>
+                        <input class="main-body__contact__form__submit btn btn--primary" type="submit" value="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
