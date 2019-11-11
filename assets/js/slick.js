@@ -1,3 +1,5 @@
+//main banner slider
+
 $('.main-body__slick').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -8,6 +10,8 @@ $('.main-body__slick').slick({
   dots: false,
   rows: 0
 });
+
+//holiday packages slider
 
 $('.packages__slick').slick({
     slidesToShow: 1,
@@ -33,4 +37,26 @@ $('.packages__slick').slick({
             }
         },
         ]
+});
+
+//about us -- testemonials slider
+
+$('.main-body__about-us__slick').slick({
+    centerMode: true,
+    slidesToShow: 3,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    arrows: false,
+    dots: false,
+    focusOnSelect: false,
+    responsive: [
+        {
+            breakpoint: 830,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                slidesToShow: 1
+            }
+        }
+    ]
 });
