@@ -18,6 +18,13 @@
 .btn--secondary:hover {
   transform: scale(1.05);
 }
+.btn--tertiary {
+  background-image: linear-gradient(#FDE74C, #fef5b1);
+  color: #88d1f1 !important;
+}
+.btn--tertiary:hover {
+  transform: scale(1.05);
+}
 
 ul, ol, li {
   margin: 0 !important;
@@ -224,6 +231,9 @@ ul, ol, li {
 }
 .main-body__content__copy h1 {
   padding-bottom: 20px;
+}
+.main-body__contact {
+  background: #5BC0EB;
 }
 .main-body__contact__title {
   text-align: center;

@@ -37,6 +37,15 @@ $default-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
             transform: scale(1.05);
         }
     }
+
+    &--tertiary {
+        background-image: linear-gradient($tertiary-color, lighten($tertiary-color, 20%));
+        color: lighten($primary-color, 10%)  !important;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
 }
 
 //base-styles
@@ -301,6 +310,7 @@ ul,ol,li {
     // contact form
     
      &__contact {
+         background: $primary-color;
 
         &__title {
             text-align: center;
