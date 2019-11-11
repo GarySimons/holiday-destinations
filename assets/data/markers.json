@@ -1,0 +1,18 @@
+{
+    "markers": [
+        {
+            "lat" : 51.5074,
+            "lng" : -0.1278,
+            "content": "Test"
+        },
+        {
+            "lat" : 54.5074,
+            "lng" : -0.1278,
+            "content": "Test"
+        },
+        {
+            "name": "tews",
+            "age": 22
+        }
+    ]
+}
