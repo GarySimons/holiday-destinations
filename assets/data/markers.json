@@ -3,51 +3,62 @@
         {
             "lat" : 51.5074,
             "lng" : -0.1278,
-            "title": "Test",
-            "content": "testymctestface"
+            "title": "London",
+            "content": "London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times. <br> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.lastminute.com/city-breaks/london.html?acntb=dp&gclid=Cj0KCQiAk7TuBRDQARIsAMRrfUYEgrdKXg-WokBiriVLMp-ynFK2HI3uJ_ff5siJdNprWxCEhk34PMoaApYHEALw_wcB&gclsrc=aw.ds\">Find Great Deals</a>"
         },
         {
-            "lat" : 54.5074,
-            "lng" : -0.1278,
-            "content": "Test"
+            "lat" : 53.4808,
+            "lng" : -2.2426,
+            "title": "Manchester",
+            "content": "Manchester is a major city in the northwest of England with a rich industrial heritage. <br> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.tripadvisor.co.uk/Vacation_Packages-g187069-Manchester_Greater_Manchester_England-Vacations.html\">Find Great Deals</a>"
         },
         {
-            "name": "tews",
-            "age": 22
+            "lat" : 54.4609,
+            "lng" : -3.0886,
+            "title": "The Lake District",
+            "content": "The Lake District is a region and national park in Cumbria in northwest England. <br> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.tripadvisor.co.uk/SmartDeals-g186318-Lake_District_Cumbria_England-Hotel-Deals.html\">Find Great Deals</a>"
         }
     ],
 
     "usa": [
         {
-            "lat" : 51.5074,
-            "lng" : -0.1278,
-            "content": "Test"
+            "lat" : 34.0522,
+            "lng" : -118.2437,
+            "title": "Los Angeles",
+            "content": "Los Angeles is a sprawling Southern California city and the center of the nation’s film and television industry. <br> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.virginholidays.co.uk/destinations/usa/los-angeles-holidays\">Find Great Deals</a>"
         },
         {
-            "lat" : 54.5074,
-            "lng" : -0.1278,
-            "content": "Test"
+            "lat" : 27.6648,
+            "lng" : -81.5158,
+            "title": "Florida",
+            "content": "Florida is the southeasternmost U.S. state, with the Atlantic on one side and the Gulf of Mexico on the other. <br> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.virginholidays.co.uk/destinations/florida-holidays\">Find Great Deals</a>"
         },
         {
-            "name": "tews",
-            "age": 22
+            "lat" : 31.9686,
+            "lng" : -99.9018,
+            "title": "Texas",
+            "content": "Texas is a large state in the southern U.S. with deserts, pine forest and the Rio Grande. <br> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.virginholidays.co.uk/destinations/usa/texas-holidays\">Find Great Deals</a>"
         }
     ],
 
     "au": [
         {
-            "lat" : 51.5074,
-            "lng" : -0.1278,
-            "content": "Test"
+            "lat" : -33.8688,
+            "lng" : 151.2093,
+            "title": "Sydney",
+            "content": "Sydney, capital of New South Wales and one of Australia's largest cities, is best known for its harbourfront Sydney Opera House. <br> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.expedia.co.uk/Sydney.d178312.Holidays-City-Breaks\">Find Great Deals</a>"
         },
         {
-            "lat" : 54.5074,
-            "lng" : -0.1278,
-            "content": "Test"
+            "lat" : -31.9505,
+            "lng" : 115.8605,
+            "title": "Perth",
+            "content": "Perth, capital of Western Australia, sits where the Swan River meets the southwest coasts. <br> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.expedia.co.uk/Perth.d180013.Holidays-City-Breaks\">Find Great Deals</a>"
         },
         {
-            "name": "tews",
-            "age": 22
+            "lat" : -27.4698,
+            "lng" : 153.0251,
+            "title": "Brisbane",
+            "content": "Brisbane, capital of Queensland, is a large city on the Brisbane River. <br> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.britishairways.com/en-gb/destinations/far-east-and-australia/australia\">Find Great Deals</a>"
         }
     ]
 }
