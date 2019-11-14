@@ -15,6 +15,8 @@ function formCheck() {
 
 function initMap() {
 
+    // default load pos for map
+
     const options = {
         zoom: 4,
         center: {lat:49.473925,lng:6.988208}
@@ -22,30 +24,53 @@ function initMap() {
 
     const map = new google.maps.Map(document.getElementById('map'), options);
 
+    // send request to JSON object locally
+    // XMLHttpRequest code from w3schools.com
+
     const xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
            const response = JSON.parse(xhttp.responseText);
 
-        console.log(response.uk);
-        console.log(response.usa);
-        console.log(response.au);
+           // get data attribute from user input and store it
 
             $(".options").each(function(){
-              $(this).on("click", function(){
+              $(this).on("click", function(e){
+                  e.preventDefault();
                   let dataType = $(this).attr('data-options');
 
-                    console.log(dataType);
+                //   marker.setMap(null);
 
-                    for(var i = 0;i < response[dataType].length;i++) {
+                    // loop through the object specifically the array that has been selected
+
+                    for(let i = 0;i < response[dataType].length;i++) {
+
+                        // grab the current iteration and store it in index
                         
-                        var index = response[dataType][i];
+                        let index = response[dataType][i];
+
+                        // construct the map markers
 
                             let marker = new google.maps.Marker({
                             position: new google.maps.LatLng(index.lat, index.lng),
                             map: map,
-                            title: index.content
+                            animation: google.maps.Animation.DROP,
+                            title: index.title,
+                            content: index.content
                         });
+
+                        // if the data has content allow a click to open info
+
+                        if (marker.content){
+                            let toolTip = new google.maps.InfoWindow({
+                                content: marker.content,
+                                title: marker.title
+                            });
+
+                            marker.addListener('click', function(){
+                                toolTip.open(map, marker);
+                            });
+                        };
                     }; 
                 });
             });
