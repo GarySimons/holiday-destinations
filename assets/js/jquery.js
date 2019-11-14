@@ -1,5 +1,3 @@
-//jquery goes here
-
 
 //nav open button
 
