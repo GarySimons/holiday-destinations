@@ -3,7 +3,8 @@
         {
             "lat" : 51.5074,
             "lng" : -0.1278,
-            "content": "Test"
+            "title": "Test",
+            "content": "testymctestface"
         },
         {
             "lat" : 54.5074,
