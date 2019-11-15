@@ -5,30 +5,27 @@
   text-shadow: 1px 1px #000;
 }
 .btn--primary {
-  background-image: linear-gradient(#5BC0EB, #b6e3f6);
-  color: #feee7e !important;
+  background: #4ECDC4;
+  color: white !important;
 }
 .btn--primary:hover {
   transform: scale(1.05);
 }
 .btn--secondary {
-  background-image: linear-gradient(#FA7921, #fcb585);
-  color: #feee7e !important;
+  background: #FF6B6B;
+  color: white !important;
 }
 .btn--secondary:hover {
-  transform: scale(1.05);
-}
-.btn--tertiary {
-  background-image: linear-gradient(#FDE74C, #fef5b1);
-  color: #88d1f1 !important;
-}
-.btn--tertiary:hover {
   transform: scale(1.05);
 }
 
 ul, ol, li {
   margin: 0 !important;
   padding: 0;
+}
+
+body {
+  background: #F7fff7;
 }
 
 .layout-padding {
@@ -43,10 +40,10 @@ ul, ol, li {
 .map {
   padding-top: 90px;
   padding-bottom: 75px;
-  background: #5BC0EB;
+  background: #142628;
 }
 .map__title {
-  color: #FDE74C;
+  color: #1A535C;
   text-shadow: 1px 1px #000;
   text-align: center;
   padding-bottom: 40px;
@@ -93,17 +90,17 @@ ul, ol, li {
   font-size: 18px;
 }
 .main-header__nav__item a {
-  color: #FDE74C;
+  color: #FF6B6B;
 }
 .main-header__nav__item a:hover {
-  color: #fce01a;
+  color: #ff3838;
   text-decoration: none;
 }
 .main-header__nav-bars {
   padding: 20px;
 }
 .main-header__nav-bars i {
-  color: #5BC0EB;
+  color: #4ECDC4;
   font-size: 35px;
 }
 .main-header__nav-bars i:hover {
@@ -111,7 +108,7 @@ ul, ol, li {
 }
 
 .hidden-nav {
-  background: #333333;
+  background: #FF6B6B;
   position: fixed;
   top: 0;
   left: 0;
@@ -160,10 +157,10 @@ ul, ol, li {
   padding-top: 10px;
 }
 .hidden-nav__panel__list__item a {
-  color: #FDE74C;
+  color: #1A535C;
 }
 .hidden-nav__panel__list__item a:hover {
-  color: #fce01a;
+  color: #0f2f34;
   text-decoration: none;
 }
 .hidden-nav__panel__image-nav {
@@ -178,7 +175,7 @@ ul, ol, li {
 .hidden-nav__panel__image-nav__image p {
   width: 100%;
   padding: 10px 0;
-  background: #5BC0EB;
+  background: #4ECDC4;
   text-align: center;
 }
 .open-nav .hidden-nav {
@@ -232,7 +229,7 @@ ul, ol, li {
   padding-bottom: 20px;
 }
 .main-body__contact {
-  background: #5BC0EB;
+  background: #142628;
 }
 .main-body__contact__title {
   text-align: center;
@@ -271,7 +268,7 @@ ul, ol, li {
 .main-body__about-us__slick__slide {
   margin-left: 15px;
   margin-right: 15px;
-  background: #FA7921;
+  background: #142628;
   padding: 10px;
   border-radius: 5px;
   color: white;
@@ -284,7 +281,7 @@ ul, ol, li {
 }
 .main-body__about-us .slick-center {
   transform: scale(1.1);
-  background: #fb883a;
+  background: #1d3639;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
