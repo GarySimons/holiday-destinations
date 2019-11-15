@@ -234,6 +234,7 @@ body {
 .main-body__contact__title {
   text-align: center;
   padding-bottom: 20px;
+  color: #fff;
 }
 .main-body__contact__form__input {
   display: block;
@@ -250,6 +251,9 @@ body {
   width: 50%;
   margin: auto;
   margin-top: 15px;
+}
+.main-body__contact__form__label {
+  color: #fff;
 }
 .main-body__contact label {
   width: 50%;

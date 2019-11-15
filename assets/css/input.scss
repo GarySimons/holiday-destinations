@@ -6,6 +6,7 @@ $secondary-color: #142628;
 $tertiary-color: #1A535C;
 $navigation-color: #FF6B6B;
 $default-body-color: #F7fff7;
+$white-color: #fff;
 
 //styling
 $default-text-shadow: 1px 1px #000;
@@ -310,6 +311,7 @@ body {
         &__title {
             text-align: center;
             padding-bottom: 20px;
+            color: $white-color;
         }
 
         &__form {
@@ -330,6 +332,10 @@ body {
                 width: 50%;
                 margin: auto;
                 margin-top: 15px;
+            }
+
+            &__label {
+                color: $white-color;
             }
         }
 
