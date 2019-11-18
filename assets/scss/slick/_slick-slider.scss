@@ -5,6 +5,7 @@
         &__slide {
             height: 100vh !important;
             background-position: center;
+            background-size: cover;
 
             &::before {
                 content: '';
