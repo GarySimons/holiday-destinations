@@ -121,6 +121,9 @@ I built the wireframes for this project using https://app.moqups.com/w7v4igcNUn/
 * Font Awesome
 * Bootstrap
 
+### Credits:
+
+* Mixin for breakpoints: https://medium.com/developing-with-sass/creating-a-dead-simple-sass-mixin-to-handle-responsive-breakpoints-889927b37740;
 
 
 
