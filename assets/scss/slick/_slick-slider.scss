@@ -19,11 +19,15 @@
                 position: absolute;
                 z-index: 1;
                 color: white;
-                width: 100%;
+                width: 50%;
                 top: 50%;
                 text-align: center;
                 left: 50%;
                 transform: translate(-50%, -50%);
+
+                @include breakpoint(xs) {
+                    width: 100%;
+                }
 
                 a {
                     width: 55%;
