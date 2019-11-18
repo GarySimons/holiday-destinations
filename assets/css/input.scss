@@ -1,40 +1,4 @@
 
-//main-body
-
-.main-body {
-
-    // about us 
-
-    &__about-us {
-        text-align: center;
-
-        &__slick {
-
-            &__slide {
-                margin-left: 15px;
-                margin-right: 15px;
-                background: $secondary-color;
-                padding: 10px;
-                border-radius: 5px;
-                color: white;
-                text-shadow: $default-text-shadow;
-                transition: $default-transition;
-                box-shadow: $default-box-shadow;
-            }
-        }
-
-        .slick-list {
-            padding: 20px 50px !important;
-        }
-
-        .slick-center {
-            transform: scale(1.1);
-            background: lighten($secondary-color, 5%);
-            box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
-        }
-    }
-}
-
 //package deals
 
 .packages {
