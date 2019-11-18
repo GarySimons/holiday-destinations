@@ -111,27 +111,35 @@ h1 {
 }
 
 #map {
-  height: 50vh;
+  height: 70vh;
   width: 100%;
 }
 
 .map {
-  padding-top: 90px;
-  padding-bottom: 75px;
+  padding: 75px 0;
   background: #142628;
 }
 .map__title {
-  color: #1A535C;
+  color: #fff;
   text-shadow: 1px 1px #000;
-  text-align: center;
   padding-bottom: 40px;
+  text-align: center;
 }
 .map__wrapper {
-  max-width: 80%;
+  max-width: 100%;
   margin: auto;
 }
-.map .row {
-  margin: 0;
+.map__searcher {
+  height: 70vh;
+  width: 100%;
+  background: #F7fff7;
+  overflow: scroll;
+}
+.map__searcher__panel {
+  padding: 20px;
+  margin: 20px;
+  background: #c4ffc4;
+  color: white;
 }
 
 .overlay {
