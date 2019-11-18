@@ -1,0 +1,38 @@
+.packages {
+    padding-top: 75px;
+
+    &__panel {
+        padding: 10px;
+    }
+
+    &__slick {
+
+        &__slide {
+            margin: auto;
+            margin-right: 15px;
+            margin-left: 15px;
+            background-size: cover;
+            height: 400px !important;
+
+            &__panel {
+                text-shadow: $default-text-shadow;
+                background: rgba(0,0,0,0.6);
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                padding: 10px;
+
+                &__text {
+                    text-align: center;
+                    color: white;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+        }
+    }
+}
