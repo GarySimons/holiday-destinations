@@ -1,34 +1,5 @@
 
 
-// map styles
-
-#map {
-    height: 50vh;
-    width: 100%;
-}
-
-.map {
-    padding-top: 90px;
-    padding-bottom: 75px;
-    background: $secondary-color;
-
-    &__title {
-        color: $tertiary-color;
-        text-shadow: $default-text-shadow;
-        text-align: center;
-        padding-bottom: 40px;
-    }
-
-    &__wrapper {
-        max-width: 80%;
-        margin: auto;
-    }
-
-    .row {
-        margin: 0;
-    }
-}
-
 //overlay
 
 .overlay {
