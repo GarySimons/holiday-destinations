@@ -11,6 +11,10 @@ body {
   padding: 75px 0;
 }
 
+h1 {
+  font-size: 4rem;
+}
+
 .btn {
   padding: 15px 30px;
   font-size: 20px;
@@ -184,6 +188,7 @@ body {
 .main-body__slick__slide {
   height: 100vh !important;
   background-position: center;
+  background-size: cover;
 }
 .main-body__slick__slide::before {
   content: "";
@@ -196,11 +201,16 @@ body {
   position: absolute;
   z-index: 1;
   color: white;
-  width: 100%;
+  width: 50%;
   top: 50%;
   text-align: center;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+@media (max-width: 767px) {
+  .main-body__slick__slide__text {
+    width: 100%;
+  }
 }
 .main-body__slick__slide__text a {
   width: 55%;
