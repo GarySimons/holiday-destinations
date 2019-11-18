@@ -1,5 +1,8 @@
 // add scss partial scss files here using @imports
 
+//variables
+@import 'variables/variables';
+
 //base styles
 @import 'base/base';
 @import 'base/mixins';
@@ -19,7 +22,5 @@
 @import 'slick/slick-slider';
 
 //static_content
-@import 'static/header';
+@import 'static_content/header';
 
-//variables
-@import 'variables/variables';
