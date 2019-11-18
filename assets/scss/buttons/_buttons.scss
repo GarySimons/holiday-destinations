@@ -1,0 +1,28 @@
+
+//buttons
+
+.btn {
+    padding: 15px 30px;
+    font-size: 20px;
+    transition: $default-transition;
+    text-shadow: $default-text-shadow;
+
+
+    &--primary {
+        background: $primary-color;
+        color: lighten($default-body-color, 10%)  !important;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    &--secondary {
+        background: $navigation-color;
+        color: lighten($default-body-color, 10%)  !important;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
