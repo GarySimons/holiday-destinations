@@ -1,0 +1,50 @@
+.main-body {
+    &__contact {
+         background: $secondary-color;
+
+        &__title {
+            text-align: center;
+            padding-bottom: 20px;
+            color: $white-color;
+        }
+
+        &__form {
+
+            &__input {
+                display: block;
+                width: 50%;
+                margin: auto;
+                padding: 5px 0px;
+                margin-top: 15px;
+            }
+            &__hidden {
+                display: none;
+            }
+
+            &__submit {
+                display: block !important;
+                width: 50%;
+                margin: auto;
+                margin-top: 15px;
+            }
+
+            &__label {
+                color: $white-color;
+            }
+        }
+
+        label {
+            width: 50%;
+            margin: auto;
+            display: block;
+            padding-top: 15px;
+
+            span {
+                color: red;
+                font-size: 20px;
+                padding-left: 4px;
+            }
+        }
+    }
+}
+
