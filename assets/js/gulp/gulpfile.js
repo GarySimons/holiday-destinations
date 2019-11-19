@@ -1,7 +1,8 @@
 const gulp = require('gulp');
+const uglify = require('gulp-uglify');
 
 gulp.task('minify', function(){
-    gulp.src('assets/js/scripts.js')
+   return gulp.src('assets/js/*.js')
     .pipe(uglify())
-    .pipe(gulp.dest('assets/js'));
+    .pipe(gulp.dest('assets/js/min'));
 });
