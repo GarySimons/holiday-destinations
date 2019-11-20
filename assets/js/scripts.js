@@ -27,7 +27,11 @@ $('.overlay').on('click', function(){
 });
 
 
-
+/**
+ * This is the main function for the Hero panel of the website, sending a fetch request to a local JSON file
+ * it then stores the data in response, a data attribute is passed into the for loop which then constructs a map 
+ * marker based on the specified dataType.
+ */
 function initMap() {
 
     fetch("assets/data/markers.json")
