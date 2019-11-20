@@ -9,7 +9,6 @@ function formCheck() {
     };
 };
 
-
 //nav open button
 
 $('.nav-button').on('click', function(e) {
@@ -48,45 +47,43 @@ function initMap() {
 
            // get data attribute from user input and store it
 
-            $(".options").each(function(){
-              $(this).on("click", function(e){
-                  e.preventDefault();
-                  let dataType = $(this).attr('data-options');
+            $(".options").on("click", function(e){
+                e.preventDefault();
+                let dataType = $(this).attr('data-options');
 
-                //   marker.setMap(null);
+            //   marker.setMap(null);
 
-                    // loop through the object specifically the array that has been selected
+                // loop through the object specifically the array that has been selected
 
-                    for(let i = 0;i < response[dataType].length;i++) {
+                for(let i = 0;i < response[dataType].length;i++) {
 
-                        // grab the current iteration and store it in index
-                        
-                        let index = response[dataType][i];
+                    // grab the current iteration and store it in index
+                    
+                    let index = response[dataType][i];
 
-                        // construct the map markers
+                    // construct the map markers
 
-                            let marker = new google.maps.Marker({
-                            position: new google.maps.LatLng(index.lat, index.lng),
-                            map: map,
-                            animation: google.maps.Animation.DROP,
-                            title: index.title,
-                            content: index.content
+                        let marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(index.lat, index.lng),
+                        map: map,
+                        animation: google.maps.Animation.DROP,
+                        title: index.title,
+                        content: index.content
+                    });
+
+                    // if the data has content allow a click to open info
+
+                    if (marker.content){
+                        let toolTip = new google.maps.InfoWindow({
+                            content: marker.content,
+                            title: marker.title
                         });
 
-                        // if the data has content allow a click to open info
-
-                        if (marker.content){
-                            let toolTip = new google.maps.InfoWindow({
-                                content: marker.content,
-                                title: marker.title
-                            });
-
-                            marker.addListener('click', function(){
-                                toolTip.open(map, marker);
-                            });
-                        };
-                    }; 
-                });
+                        marker.addListener('click', function(){
+                            toolTip.open(map, marker);
+                        });
+                    };
+                }; 
             });
         };
     };
