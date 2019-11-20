@@ -9,9 +9,23 @@ function formCheck() {
     };
 };
 
+
+//nav open button
+
+$('.nav-button').on('click', function(e) {
+    e.preventDefault();
+    $('html').addClass('open-nav show-overlay');
+});
+
+//click to close
+
+$('.overlay').on('click', function(){
+    $('html').removeClass('open-nav show-overlay')
+})
+
 // Google Maps API
 // https://developers.google.com/maps/documentation/javascript/adding-a-google-map - documentation
-// https://maps.googleapis.com/maps/api/js?key=AIzaSyDZiJgFymn04HyksKtcoqVf1LlJdY2cAGQ&callback=initMap
+// https://maps.googleapis.com/maps/api/js?key=AIzaSyCEwy3EIAwPBRcIbRPSHTUDgyAGRinxBUY&callback=initMap
 
 function initMap() {
 
