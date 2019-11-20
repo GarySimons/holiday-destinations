@@ -1,5 +1,9 @@
-//form validation 
-
+/**
+ * This function checks that a specific input is not filled in
+ * typically bots will automatically fill in all input fields 
+ * on a contact form and spam it, in this case the function 
+ * watches for the input form that is hidden to be filled in. 
+ */
 function formCheck() {
     let check = document.forms["main-body__contact__form"]["honey-pot"].value;
 
