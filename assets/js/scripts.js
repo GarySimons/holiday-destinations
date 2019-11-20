@@ -51,8 +51,6 @@ function initMap() {
                 e.preventDefault();
                 let dataType = $(this).attr('data-options');
 
-            //   marker.setMap(null);
-
                 // loop through the object specifically the array that has been selected
 
                 for(let i = 0;i < response[dataType].length;i++) {
