@@ -26,13 +26,13 @@
         height: 70vh;
         width: 100%;
         background: $default-body-color;
-        overflow: scroll;
+        overflow-y: scroll;
 
         &__panel {
             padding: 20px;
             margin: 20px;
-            background: grey;
             color: white;
+            background: black;
             box-shadow: $default-box-shadow;
         }
     }
