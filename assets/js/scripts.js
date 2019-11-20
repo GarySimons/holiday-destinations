@@ -6,8 +6,8 @@ function formCheck() {
     if (check.length > 0) {
         alert("Bot Detected initiate self destruct sequence");
         return false;
-    }
-}
+    };
+};
 
 // Google Maps API
 // https://developers.google.com/maps/documentation/javascript/adding-a-google-map - documentation
@@ -20,7 +20,7 @@ function initMap() {
     const options = {
         zoom: 4,
         center: {lat:49.473925,lng:6.988208}
-    }
+    };
 
     const map = new google.maps.Map(document.getElementById('map'), options);
 
@@ -80,5 +80,5 @@ function initMap() {
     xhttp.open("GET", "assets/data/markers.json", true);
     xhttp.send();
 
-}
+};
 
