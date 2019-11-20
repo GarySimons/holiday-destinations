@@ -32,48 +32,59 @@ $('.overlay').on('click', function(){
  * it then stores the data in response, a data attribute is passed into the for loop which then constructs a map 
  * marker based on the specified dataType.
  */
-function initMap() {
+// function initMap() {
 
-    fetch("assets/data/markers.json")
-        .then(response => response.json())
-        .then(response => {
+//     fetch("assets/data/markers.json")
+//         .then(response => response.json())
+//         .then(response => {
 
-    const options = {
-        zoom: 4,
-        center: {lat:49.473925,lng:6.988208}
-    };
+//     const options = {
+//         zoom: 4,
+//         center: {lat:49.473925,lng:6.988208}
+//     };
 
-    const map = new google.maps.Map(document.getElementById('map'), options);
+//     const map = new google.maps.Map(document.getElementById('map'), options);
 
-        $(".options").on("click", function(e){
-            e.preventDefault();
-            let dataType = $(this).attr('data-options');
+//         $(".options").on("click", function(e){
+//             e.preventDefault();
+//             let dataType = $(this).attr('data-options');
 
-            for(let i = 0;i < response[dataType].length;i++) {
+//             for(let i = 0;i < response[dataType].length;i++) {
                 
-                let index = response[dataType][i];
+//                 let index = response[dataType][i];
 
-                    let marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(index.lat, index.lng),
-                    map: map,
-                    animation: google.maps.Animation.DROP,
-                    title: index.title,
-                    content: index.content
-                });
+//                     let marker = new google.maps.Marker({
+//                     position: new google.maps.LatLng(index.lat, index.lng),
+//                     map: map,
+//                     animation: google.maps.Animation.DROP,
+//                     title: index.title,
+//                     content: index.content
+//                 });
 
-                if (marker.content){
-                    let toolTip = new google.maps.InfoWindow({
-                        content: marker.content,
-                        title: marker.title
-                    });
+//                 if (marker.content){
+//                     let toolTip = new google.maps.InfoWindow({
+//                         content: marker.content,
+//                         title: marker.title
+//                     });
 
-                    marker.addListener('click', function(){
-                        toolTip.open(map, marker);
-                    });
-                };
-            }; 
+//                     marker.addListener('click', function(){
+//                         toolTip.open(map, marker);
+//                     });
+//                 };
+//             }; 
+//         });
+//     });
+// };
+
+
+fetch("assets/data/markers.json")
+        .then(response => response.json())
+        .then(response => { 
+            for (i = 0; i < response.uk.length; i++) {
+                x = response.uk[i].content;
+                console.log(x);
+            };
+            jQuery.each(response, function(){
+                $(".map__searcher__panel").append(document.createTextNode(x));
+            });
         });
-    });
-};
-
-   
