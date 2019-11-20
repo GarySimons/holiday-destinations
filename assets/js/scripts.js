@@ -24,15 +24,15 @@ $('.nav-button').on('click', function(e) {
 
 $('.overlay').on('click', function(){
     $('html').removeClass('open-nav show-overlay')
-})
+});
+
+
 
 function initMap() {
 
     fetch("assets/data/markers.json")
         .then(response => response.json())
         .then(response => {
-
-    // default load pos for map
 
     const options = {
         zoom: 4,
@@ -45,15 +45,9 @@ function initMap() {
             e.preventDefault();
             let dataType = $(this).attr('data-options');
 
-            // loop through the object specifically the array that has been selected
-
             for(let i = 0;i < response[dataType].length;i++) {
-
-                // grab the current iteration and store it in index
                 
                 let index = response[dataType][i];
-
-                // construct the map markers
 
                     let marker = new google.maps.Marker({
                     position: new google.maps.LatLng(index.lat, index.lng),
@@ -62,8 +56,6 @@ function initMap() {
                     title: index.title,
                     content: index.content
                 });
-
-                // if the data has content allow a click to open info
 
                 if (marker.content){
                     let toolTip = new google.maps.InfoWindow({
