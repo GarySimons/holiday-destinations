@@ -133,13 +133,14 @@ h1 {
   height: 70vh;
   width: 100%;
   background: #F7fff7;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 .map__searcher__panel {
   padding: 20px;
   margin: 20px;
-  background: #c4ffc4;
   color: white;
+  background: black;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
 .overlay {
