@@ -142,6 +142,32 @@ h1 {
   background: black;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
+.map__searcher__overlay {
+  height: 100%;
+}
+.map__searcher__overlay__text {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  padding: 20px;
+  background: #FF6B6B;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+.map__searcher__overlay__text p {
+  margin: 0;
+}
+.map__searcher__hide {
+  display: none;
+}
+.map__searcher__show {
+  display: block;
+}
 
 .overlay {
   position: fixed;
