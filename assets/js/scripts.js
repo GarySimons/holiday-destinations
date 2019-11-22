@@ -13,6 +13,8 @@ function formCheck() {
     };
 };
 
+const optionsNav = $('.options');
+
 //nav open button
 $('.nav-button').on('click', function(e) {
     e.preventDefault();
@@ -22,6 +24,11 @@ $('.nav-button').on('click', function(e) {
 //click to close
 $('.overlay').on('click', function(){
     $('html').removeClass('open-nav show-overlay')
+});
+
+optionsNav.on('click', function(){
+    $('.map__searcher__hide').removeClass('map__searcher__hide');
+    $('.map__searcher__overlay').addClass('map__searcher__hide');
 });
 
 /**
@@ -42,7 +49,7 @@ function initMap() {
 
     const map = new google.maps.Map(document.getElementById('map'), options);
 
-        $(".options").on("click", function(e){
+        optionsNav.on("click", function(e){
             e.preventDefault();
             let dataType = $(this).attr('data-options');
 
