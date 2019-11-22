@@ -14,18 +14,15 @@ function formCheck() {
 };
 
 //nav open button
-
 $('.nav-button').on('click', function(e) {
     e.preventDefault();
     $('html').addClass('open-nav show-overlay');
 });
 
 //click to close
-
 $('.overlay').on('click', function(){
     $('html').removeClass('open-nav show-overlay')
 });
-
 
 /**
  * This is the main function for the Hero panel of the website, sending a fetch request to a local JSON file
@@ -51,15 +48,16 @@ function initMap() {
 
             for(let i = 0;i < response[dataType].length;i++) {
                 
-                let index = response[dataType][i];
-                let index_content = response[dataType][i].content;
+                let location = response[dataType][i];
+                let location_title = location.title;
+                let location_content = location.content;
 
                     let marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(index.lat, index.lng),
+                    position: new google.maps.LatLng(location.lat, location.lng),
                     map: map,
                     animation: google.maps.Animation.DROP,
-                    title: index.title,
-                    content: index.content
+                    title: location.title,
+                    content: location.content
                 });
 
                 if (marker.content){
@@ -72,7 +70,8 @@ function initMap() {
                         toolTip.open(map, marker);
                     });
                 };
-                $(".test" + i).html(index_content);
+
+                $(".iteration" + i).html("<h2>" + location_title + "</h2>" + location_content);
             }; 
         });
     });
