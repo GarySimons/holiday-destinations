@@ -331,7 +331,6 @@ h1 {
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
   height: 100%;
-  widows: 110%;
 }
 .hidden-nav__panel__inner::-webkit-scrollbar {
   display: none;
