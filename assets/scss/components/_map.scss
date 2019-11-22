@@ -35,5 +35,36 @@
             background: black;
             box-shadow: $default-box-shadow;
         }
+
+        &__overlay {
+            height: 100%;
+
+            &__text {
+                position: absolute;
+                z-index: 1;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 20px;
+                padding: 20px;
+                background: $navigation-color;
+                color: $white-color;
+                text-shadow: $default-text-shadow;
+                box-shadow: $default-box-shadow;
+                border-radius: 5px;
+
+                p {
+                    margin: 0;
+                }
+            }
+        }
+
+        &__hide {
+            display: none;
+        }
+
+        &__show {
+            display: block;
+        }
     }
 }
