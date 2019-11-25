@@ -5,6 +5,7 @@ ul, ol, li {
 
 body {
   background: #F7fff7;
+  font-size: 16px;
 }
 
 .layout-padding {
@@ -17,7 +18,7 @@ h1 {
 
 .btn {
   padding: 15px 30px;
-  font-size: 20px;
+  font-size: 1.5rem;
   transition: all 0.2s ease-in-out;
   text-shadow: 1px 1px #000;
 }
@@ -161,7 +162,7 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 20px;
+  font-size: 1.2rem;
   padding: 20px;
   background: #FF6B6B;
   color: #fff;
@@ -275,7 +276,7 @@ h1 {
 }
 .main-header__nav__item {
   padding: 0 0 0 40px;
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 .main-header__nav__item a {
   color: #fff;
@@ -290,7 +291,7 @@ h1 {
 }
 .main-header__nav-bars i {
   color: #4ECDC4;
-  font-size: 35px;
+  font-size: 2.2rem;
 }
 .main-header__nav-bars i:hover {
   cursor: pointer;
@@ -314,7 +315,7 @@ h1 {
   position: absolute;
   top: 0;
   right: -50px;
-  font-size: 20px;
+  font-size: 1rem;
   transition: all 0.2s ease-in-out;
   text-align: center;
   line-height: 50px;
@@ -376,7 +377,7 @@ h1 {
 .hidden-nav__title {
   text-align: center;
   padding: 10px;
-  font-size: 25px;
+  font-size: 1.5rem;
   color: white;
   text-shadow: 1px 1px #000;
 }
