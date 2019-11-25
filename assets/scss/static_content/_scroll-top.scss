@@ -12,9 +12,15 @@
         padding: 10px;
         border-radius: 20px;
         box-shadow: $default-box-shadow;
+        transition: $default-transition;
 
         &__icon {
             color: $white-color;
+        }
+
+        &:hover {
+            background: darken($navigation-color, 10%);
+            color: darken($white-color, 10%);
         }
     }
 
