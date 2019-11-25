@@ -1,5 +1,5 @@
 
-# Second Milestone Project: Holiday Destinations
+# Holiday Destinations
 
 ### Contents:
 
