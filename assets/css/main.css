@@ -230,6 +230,24 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.packages__slick__slide__first {
+  background-image: url("assets/images/package-images/holiday-img-1.png");
+}
+.packages__slick__slide__second {
+  background-image: url("assets/images/package-images/holiday-img-2.png");
+}
+.packages__slick__slide__third {
+  background-image: url("assets/images/package-images/holiday-img-3.png");
+}
+.packages__slick__slide__fourth {
+  background-image: url("assets/images/package-images/holiday-img-4.jpg");
+}
+.packages__slick__slide__fifth {
+  background-image: url("assets/images/package-images/holiday-img-5.jpg");
+}
+.packages__slick__slide__sixth {
+  background-image: url("assets/images/package-images/holiday-img-6.jpg");
+}
 
 .main-body__slick__slide {
   height: 100vh !important;
