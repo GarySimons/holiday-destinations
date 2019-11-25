@@ -4,6 +4,7 @@
     width: 100%;
     position: absolute;
     z-index: 1;
+    background: rgba(0,0,0,0.4);
 
     &__nav {
         display: flex;
@@ -15,11 +16,12 @@
             font-size: 18px;
 
             a {
-                color: $navigation-color;
+                color: $white-color;
 
                 &:hover {
                     color: darken($navigation-color, 10%);
                     text-decoration: none;
+                    transition: $default-transition;
                 }
             }
         }
