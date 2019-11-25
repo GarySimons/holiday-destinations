@@ -98,7 +98,7 @@ $default-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 The background images I chose to use on the banner are sourced from royalty free websites, they showcase different types of ‘lifestyle’ shots on different holiday destinations. Arguably large images like the ones mentioned are great for encouraging sales and leads. 
 
 ### Wireframes:
-I built the wireframes for this project using https://app.moqups.com/w7v4igcNUn/view/page/aa9df7b72.
+I built the wireframes for this project using moqups + balsamiq
 
 ### Features:
 
@@ -123,7 +123,7 @@ I built the wireframes for this project using https://app.moqups.com/w7v4igcNUn/
 
 ### Credits:
 
-* Mixin for breakpoints: https://medium.com/developing-with-sass/creating-a-dead-simple-sass-mixin-to-handle-responsive-breakpoints-889927b37740;
+* Mixin for breakpoints: ***https://medium.com/developing-with-sass/creating-a-dead-simple-sass-mixin-to-handle-responsive-breakpoints-889927b37740;***
 
 
 
