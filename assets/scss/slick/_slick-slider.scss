@@ -34,6 +34,18 @@
                     margin-top: 10px;
                 }
             }
+
+            &__first {
+                background-image: url('assets/images/banner-images/winter-image.jpg')
+            }
+
+            &__second {
+                background-image: url('assets/images/banner-images/summer-image.jpg')
+            }
+
+            &__third {
+                background-image: url('assets/images/banner-images/all-inclusive.jpg')
+            }
         }
     }
 }
