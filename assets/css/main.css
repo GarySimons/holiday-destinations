@@ -381,4 +381,21 @@ h1 {
   text-shadow: 1px 1px #000;
 }
 
+.scroll-top {
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  padding: 20px 40px;
+}
+.scroll-top__link {
+  background: #FF6B6B;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+.scroll-top__link__icon {
+  color: #fff;
+}
+
 /*# sourceMappingURL=main.css.map */
