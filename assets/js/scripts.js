@@ -4,14 +4,14 @@
  * on a contact form and spam it, in this case the function 
  * watches for the input form that is hidden to be filled in. 
  */
-function formCheck() {
-    let check = document.forms["main-body__contact__form"]["honey-pot"].value;
+$('#contact-form').on("submit", function(){
+  let check = document.forms["main-body__contact__form"]["honey-pot"].value;
 
     if (check.length > 0) {
         alert("Bot Detected initiate self destruct sequence");
         return false;
-    };
-};
+    };  
+});
 
 const optionsNav = $('.options');
 const scrollBtn = $('.scroll-top');
