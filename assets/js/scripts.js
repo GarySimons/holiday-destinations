@@ -75,6 +75,8 @@ function initMap() {
                 let location_title = location.title;
                 let location_content = location.content;
 
+                
+
                     let marker = new google.maps.Marker({
                     position: new google.maps.LatLng(location.lat, location.lng),
                     map: map,
@@ -82,6 +84,16 @@ function initMap() {
                     title: location.title,
                     content: location.content
                 });
+
+                const setPos = map.setCenter(marker.getPosition())
+
+                if (dataType == 'usa') {
+                    setPos
+                } else if (dataType == 'au') {
+                    setPos
+                } else {
+                    setPos
+                };
 
                 if (marker.content){
                     let toolTip = new google.maps.InfoWindow({
