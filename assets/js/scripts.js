@@ -23,13 +23,13 @@ const scrollBtn = $('.scroll-top');
     } else {
       scrollBtn.removeClass('scroll-top__show');
     }
-
-     scrollBtn.on('click', function(e) {
-        e.preventDefault();
-        $('body, body').animate({scrollTop:0}, '300');
-    });
-
   });
+
+  scrollBtn.on("click", function() {
+        $("body, html").animate({
+            scrollTop: 0
+        }, 800)
+    }),
 
 //nav open button
 $('.nav-button').on('click', function(e) {
