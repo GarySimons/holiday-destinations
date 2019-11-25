@@ -8,7 +8,7 @@
     text-shadow: $default-text-shadow;
 
 
-    &--primary {
+    &__primary {
         background: $primary-color;
         color: lighten($default-body-color, 10%)  !important;
 
@@ -17,7 +17,7 @@
         }
     }
 
-    &--secondary {
+    &__secondary {
         background: $navigation-color;
         color: lighten($default-body-color, 10%)  !important;
 
