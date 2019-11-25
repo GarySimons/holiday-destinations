@@ -387,6 +387,8 @@ h1 {
   bottom: 0;
   right: 0;
   padding: 20px 40px;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
 }
 .scroll-top__link {
   background: #FF6B6B;
@@ -396,6 +398,9 @@ h1 {
 }
 .scroll-top__link__icon {
   color: #fff;
+}
+.scroll-top__show {
+  opacity: 1 !important;
 }
 
 /*# sourceMappingURL=main.css.map */
