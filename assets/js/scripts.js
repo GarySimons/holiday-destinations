@@ -14,6 +14,17 @@ function formCheck() {
 };
 
 const optionsNav = $('.options');
+const scrollBtn = $('.scroll-top');
+
+ $(window).scroll(function() {
+
+    if ($(window).scrollTop() > 300) {
+      scrollBtn.addClass('scroll-btn__show');
+    } else {
+      scrollBtn.removeClass('scroll-btn__show');
+    }
+
+  });
 
 //nav open button
 $('.nav-button').on('click', function(e) {
