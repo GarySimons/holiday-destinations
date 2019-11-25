@@ -33,6 +33,25 @@
                     transform: translate(-50%, -50%);
                 }
             }
+
+            &__first {
+                background-image: url('assets/images/package-images/holiday-img-1.png');
+            }
+            &__second {
+                background-image: url('assets/images/package-images/holiday-img-2.png');
+            }
+            &__third {
+                background-image: url('assets/images/package-images/holiday-img-3.png');
+            }
+            &__fourth {
+                background-image: url('assets/images/package-images/holiday-img-4.jpg');
+            }
+            &__fifth {
+                background-image: url('assets/images/package-images/holiday-img-5.jpg');
+            }
+            &__sixth {
+                background-image: url('assets/images/package-images/holiday-img-6.jpg');
+            }
         }
     }
 }
