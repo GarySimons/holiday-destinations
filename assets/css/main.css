@@ -395,9 +395,14 @@ h1 {
   padding: 10px;
   border-radius: 20px;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s ease-in-out;
 }
 .scroll-top__link__icon {
   color: #fff;
+}
+.scroll-top__link:hover {
+  background: #ff3838;
+  color: #e6e6e6;
 }
 .scroll-top__show {
   opacity: 1 !important;
