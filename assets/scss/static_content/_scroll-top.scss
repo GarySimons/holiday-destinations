@@ -4,6 +4,8 @@
     bottom: 0;
     right: 0;
     padding: 20px 40px;
+    transition: $default-transition;
+    opacity: 0;
 
     &__link {
         background: $navigation-color;
@@ -14,5 +16,9 @@
         &__icon {
             color: $white-color;
         }
+    }
+
+    &__show {
+        opacity: 1 !important;
     }
 }
