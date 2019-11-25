@@ -63,7 +63,7 @@ The goal of this project is to help users find ideal holiday locations based on 
 
 ### Design Choices:
 
-The theme of this project is holidays and vacations, therefore my design choices are heavily influenced by positive colours and motifs. https://www.crazyegg.com/blog/colors-proven-to-boost-sales/ Using the resources in this blog I was able to pick out a colour scheme that has been proven to boost sales/interaction with a web page.
+The theme of this project is holidays and vacations, therefore my design choices are heavily influenced by positive colours and motifs. <a href='https://www.crazyegg.com/blog/colors-proven-to-boost-sales/'>This</a> Using the resources in this blog I was able to pick out a colour scheme that has been proven to boost sales/interaction with a web page.
 
 ##### Fonts: 
 I chose to use the font LATO as it showcases a very simplistic style which compliments the minimalist nature of the overall site design. The focus of the content is to provide an informative experience for the customer, which heavily influenced my decision to choose a font that isn't too ambiguous.
@@ -72,7 +72,7 @@ I chose to use the font LATO as it showcases a very simplistic style which compl
 The icons used are self explanatory so that the user does not need to struggle to interpret what the icon will actually do.
 
 ##### Colours:
-Using learned knowledge from prior research, bright and vibrant colours have a higher influence in terms of positivity and therefore more potential sales/leads and interactions: Using https://coolors.co/d9f0ff-5bc0eb-e55934-fa7921-fde74c i was able to find a colour scheme that suited the afor mentioned points.
+Using learned knowledge from prior research, bright and vibrant colours have a higher influence in terms of positivity and therefore more potential sales/leads and interactions: Using <a href='[Generate - Coolors.co](https://coolors.co/d9f0ff-5bc0eb-e55934-fa7921-fde74c)'>This</a> i was able to find a colour scheme that suited the afor mentioned points.
 
 Primary: #5BC0EB “Blue Jeans” I chose this as the primary colour as the colour blue is great to influence thoughts of trust, honesty and intelligence.
 
@@ -112,18 +112,18 @@ I built the wireframes for this project using moqups + balsamiq
 ### Technologies Used:
 
 * HTML5
-* SASS/SCSS
+* SASS/SCSS <a href="[Sass: Syntactically Awesome Style Sheets](https://sass-lang.com/)">Link</a>
 * JavaScript
-* JQuery
-* Google Places API
-* Slick.js
-* Google Fonts
-* Font Awesome
-* Bootstrap
+* JQuery <a href="[jQuery](https://jquery.com/)">Link</a>
+* Google Places <a href="[Overview  \|  Places API  |  Google Developers](https://developers.google.com/places/web-service/intro)">Link</a>
+* Slick.js <a href="[slick - the last carousel you'll ever need](https://kenwheeler.github.io/slick/)">Link</a>
+* Google Fonts <a href="[Google Fonts](https://fonts.google.com/)">Link</a>
+* Font Awesome <a href="[Font Awesome](https://fontawesome.com/icons?d=gallery)">Link</a>
+* Bootstrap <a href="[Bootstrap · The most popular HTML, CSS, and JS library in the world.](https://getbootstrap.com/)">Link</a>
 
 ### Credits:
 
-* Mixin for breakpoints: ***https://medium.com/developing-with-sass/creating-a-dead-simple-sass-mixin-to-handle-responsive-breakpoints-889927b37740;***
+* Mixin for breakpoints: <a href="[Creating a Dead Simple Sass Mixin to Handle Responsive Breakpoints](https://medium.com/developing-with-sass/creating-a-dead-simple-sass-mixin-to-handle-responsive-breakpoints-889927b37740)">Link</a>
 
 
 
