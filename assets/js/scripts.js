@@ -19,10 +19,15 @@ const scrollBtn = $('.scroll-top');
  $(window).scroll(function() {
 
     if ($(window).scrollTop() > 300) {
-      scrollBtn.addClass('scroll-btn__show');
+      scrollBtn.addClass('scroll-top__show');
     } else {
-      scrollBtn.removeClass('scroll-btn__show');
+      scrollBtn.removeClass('scroll-top__show');
     }
+
+     scrollBtn.on('click', function(e) {
+        e.preventDefault();
+        $('body, body').animate({scrollTop:0}, '300');
+    });
 
   });
 
