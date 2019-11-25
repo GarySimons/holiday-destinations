@@ -21,18 +21,18 @@ h1 {
   transition: all 0.2s ease-in-out;
   text-shadow: 1px 1px #000;
 }
-.btn--primary {
+.btn__primary {
   background: #4ECDC4;
   color: white !important;
 }
-.btn--primary:hover {
+.btn__primary:hover {
   transform: scale(1.05);
 }
-.btn--secondary {
+.btn__secondary {
   background: #FF6B6B;
   color: white !important;
 }
-.btn--secondary:hover {
+.btn__secondary:hover {
   transform: scale(1.05);
 }
 
@@ -42,7 +42,7 @@ h1 {
 .main-body__about-us__slick__slide {
   margin-left: 15px;
   margin-right: 15px;
-  background: #142628;
+  background: #264c5f;
   padding: 10px;
   border-radius: 5px;
   color: white;
@@ -55,12 +55,12 @@ h1 {
 }
 .main-body__about-us .slick-center {
   transform: scale(1.1);
-  background: #1d3639;
+  background: #2d5b71;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
 .main-body__contact {
-  background: #142628;
+  background: #264c5f;
 }
 .main-body__contact__title {
   text-align: center;
@@ -117,7 +117,7 @@ h1 {
 
 .map {
   padding: 75px 0;
-  background: #142628;
+  background: #264c5f;
 }
 .map__title {
   color: #fff;
@@ -266,6 +266,7 @@ h1 {
   width: 100%;
   position: absolute;
   z-index: 1;
+  background: rgba(0, 0, 0, 0.4);
 }
 .main-header__nav {
   display: flex;
@@ -277,11 +278,12 @@ h1 {
   font-size: 18px;
 }
 .main-header__nav__item a {
-  color: #FF6B6B;
+  color: #fff;
 }
 .main-header__nav__item a:hover {
   color: #ff3838;
   text-decoration: none;
+  transition: all 0.2s ease-in-out;
 }
 .main-header__nav-bars {
   padding: 20px;
