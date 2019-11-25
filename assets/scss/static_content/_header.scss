@@ -13,7 +13,7 @@
 
         &__item {
             padding: 0 0 0 40px;
-            font-size: 18px;
+            font-size: 1.2rem;
 
             a {
                 color: $white-color;
@@ -32,7 +32,7 @@
 
         i {
             color: $primary-color;
-            font-size: 35px;
+            font-size: 2.2rem;
 
             &:hover {
                 cursor: pointer;
@@ -62,7 +62,7 @@
         position: absolute;
         top: 0;
         right: -50px;
-        font-size: 20px;
+        font-size: 1rem;
         transition: $default-transition;
         text-align: center;
         line-height: 50px;
@@ -136,7 +136,7 @@
     &__title {
         text-align: center;
         padding: 10px;
-        font-size: 25px;
+        font-size: 1.5rem;
         color: white;
         text-shadow: $default-text-shadow;
     }
