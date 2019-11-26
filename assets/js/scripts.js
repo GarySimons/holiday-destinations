@@ -26,9 +26,7 @@ const scrollBtn = $('.scroll-top');
   });
 
   scrollBtn.on("click", function() {
-        $("body, html").animate({
-            scrollTop: 0
-        }, 800)
+        $("body, html").srcollTop()
     }),
 
 //nav open button
