@@ -17,17 +17,12 @@ const optionsNav = $('.options');
 const scrollBtn = $('.scroll-top');
 
  $(window).scroll(function() {
-
     if ($(window).scrollTop() > 300) {
       scrollBtn.addClass('scroll-top__show');
     } else {
       scrollBtn.removeClass('scroll-top__show');
     }
   });
-
-  scrollBtn.on("click", function() {
-        $("body, html").srcollTop()
-    }),
 
 //nav open button
 $('.nav-button').on('click', function(e) {
