@@ -285,13 +285,13 @@ html {
   margin-top: 10px;
 }
 .main-body__slick__slide__first {
-  background-image: url("assets/images/banner-images/winter-image.jpg");
+  background-image: url("../../assets/images/banner-images/winter-image.jpg");
 }
 .main-body__slick__slide__second {
-  background-image: url("assets/images/banner-images/summer-image.jpg");
+  background-image: url("../../assets/images/banner-images/summer-image.jpg");
 }
 .main-body__slick__slide__third {
-  background-image: url("assets/images/banner-images/all-inclusive.jpg");
+  background-image: url("../../assets/images/banner-images/all-inclusive.jpg");
 }
 
 .main-header {
