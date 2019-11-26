@@ -58,14 +58,6 @@
         </div>
     </nav>
 
-<!-- overlay -->
-
-<div class="overlay"></div>
-
-<div class="scroll-top">
-    <a href='#' class='scroll-top__link'><i class="fa fa-fw fa-angle-up scroll-top__link__icon"></i></a>
-</div>
-
 <!--main-body-->
 
 <main class="main-body">
@@ -73,21 +65,21 @@
     <!--main body top slider/banner-->
 
     <div class="main-body__slick">
-        <div class="main-body__slick__slide" style="background-image: url('assets/images/banner-images/winter-image.jpg')">
+        <div class="main-body__slick__slide main-body__slick__slide__first">
             <div class="main-body__slick__slide__text">
                 <h1>Winter Getaways!</h1>
                 <p>Call today and take advantage of our clearance sales</p>
                 <a href="#contact" class="btn btn__primary">Contact Us</a>
             </div>
         </div>
-        <div class="main-body__slick__slide" style="background-image: url('assets/images/banner-images/summer-image.jpg')">
+        <div class="main-body__slick__slide main-body__slick__slide__second" style="background-image: url('assets/images/banner-images/summer-image.jpg')">
             <div class="main-body__slick__slide__text">
                 <h1>Fun in the Sun!</h1>
                 <p>Call today and take advantage of our clearance sales</p>
                 <a href="#contact" class="btn btn__primary">Contact Us</a>
             </div>
         </div>
-        <div class="main-body__slick__slide" style="background-image: url('assets/images/banner-images/all-inclusive.jpg')">
+        <div class="main-body__slick__slide main-body__slick__slide__third" style="background-image: url('assets/images/banner-images/all-inclusive.jpg')">
             <div class="main-body__slick__slide__text">
                 <h1>All Inclusive</h1>
                 <p>Call today and take advantage of our clearance sales</p>
@@ -187,8 +179,8 @@
 
     <!-- interactive maps -->
 
-    <div class="map layout-padding">
-        <section id="destinations" class="row no-gutters">
+    <section id="destinations" class="map layout-padding">
+        <div class="row no-gutters">
             <div class="col-12">
                 <div class="map__title">
                     <h2>2019's Best Locations</h2>
@@ -200,12 +192,12 @@
                     <a href="#" class="options btn btn__secondary" data-options="au">AU</a>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section class="row no-gutters">
+        <div class="row no-gutters">
             <div class="col-12 col-md-6">
                 <div class="map__searcher">
-                    <section class="row no-gutters map__searcher__hide">
+                    <div class="row no-gutters map__searcher__hide">
                         <div class="col-12">
                             <div class="map__searcher__panel iteration0">
                                 
@@ -221,18 +213,18 @@
                                 
                             </div>
                         </div>
-                    </section>
-                    <section class="row no-gutters map__searcher__overlay" style="background-image: url('assets/images/water-hut-image.jpg')">
+                    </div>
+                    <div class="row no-gutters map__searcher__overlay" style="background-image: url('assets/images/water-hut-image.jpg')">
                         <div class="col-12">
                             <div class="map__searcher__overlay__text">
                                 <p>Use the buttons above to request information</p>
                             </div>
                         </div>
-                    </section>
+                    </div>
                 </div>
             </div>
             <div class="col-12 col-md-6">
-                <section class="row no-gutters">
+                <div class="row no-gutters">
                     <div class="col-12">
                         <div class="map__wrapper">
 
@@ -242,11 +234,10 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </div>
             </div>
-        </section>
-    </div>
-
+        </div>
+    </section>
 
     <!-- About Us -->
 
@@ -312,7 +303,16 @@
             </div>
         </div>
     </section>
+
 </main>
+
+<!-- overlay -->
+
+<div class="overlay"></div>
+
+<!-- scroll-top button -->
+
+<div class="scroll-top"><a href='#' class='scroll-top__link'><i class="fa fa-fw fa-angle-up scroll-top__link__icon"></i></a></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
