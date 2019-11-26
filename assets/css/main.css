@@ -16,6 +16,10 @@ h1 {
   font-size: 4rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .btn {
   padding: 15px 30px;
   font-size: 1.5rem;
