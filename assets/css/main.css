@@ -52,6 +52,10 @@ html {
   color: white !important;
 }
 
+.options {
+  cursor: pointer;
+}
+
 .main-body__about-us {
   text-align: center;
 }
