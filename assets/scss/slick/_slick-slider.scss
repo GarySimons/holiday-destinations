@@ -30,7 +30,6 @@
                 }
 
                 a {
-                    width: 55%;
                     margin-top: 10px;
                 }
             }
@@ -45,6 +44,17 @@
 
             &__third {
                 background-image: url('../../assets/images/banner-images/all-inclusive.jpg');
+            }
+
+            &__buttons {
+                display: inline-flex;
+                @include breakpoint(xs) {
+                    display: block;
+                }
+
+                a {
+                    margin: 10px;
+                }
             }
         }
     }
