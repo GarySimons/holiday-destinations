@@ -36,7 +36,8 @@ $('.overlay').on('click', function(){
 });
 
 optionsNav.on('click', function(){
-    $('.map__searcher__hide').removeClass('map__searcher__hide');
+    $('#location-stage').removeClass('map__searcher__hide');
+    $('.map__searcher').addClass('map__searcher__scroll');
     $('.map__searcher__overlay').addClass('map__searcher__hide');
 });
 
