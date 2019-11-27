@@ -1,6 +1,8 @@
 
 # Holiday Destinations 🎪
 
+Thankyou for visitng my project, please feel free to read through the Read-me and browse my code. If you do have any questions or queries get in touch with me at georgework@gmail.com. Happy Coding!
+👨‍💻
 ## Contents:
 
 * UX 👍
