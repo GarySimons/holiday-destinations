@@ -59,6 +59,7 @@ function initMap() {
     const map = new google.maps.Map(document.getElementById('map'), options);
 
         optionsNav.on("click", function(){
+            $('.map__title').addClass('move');
             let dataType = $(this).attr('data-options');
 
             for(let i = 0;i < response[dataType].length;i++) {
@@ -88,7 +89,13 @@ function initMap() {
                     });
                 };
 
-                $(".iteration" + i).html("<h2>" + locationTitle + "</h2>" + locationContent);
+                let destinationInfo = `
+                <div>
+                    <h2>${locationTitle}</h2>
+                    <p>${locationContent}</p>
+                </div>
+                `;
+                $(".locationDetails" + i).html(destinationInfo);
             }; 
         });
     });
