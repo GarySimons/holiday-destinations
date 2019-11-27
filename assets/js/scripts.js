@@ -16,7 +16,7 @@ $('.nav-button').on('click', function(e) {
 });
 
 //click to close
-$('.overlay').on('click', function(){
+$('.overlay, .mobile-nav').on('click', function(){
     $('html').removeClass('open-nav show-overlay')
 });
 
