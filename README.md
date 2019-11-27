@@ -23,7 +23,7 @@
 * Testing 🔌
 * Deployment 🚀
 * Credits 💳
-***
+
 
 ## UX (User Experience) 👍
 ### Project Goals
@@ -42,7 +42,7 @@ The goal of this project is to help users find ideal holiday locations based on 
 * Generate new leads and interest for holiday makers.
 * Gather information on what types of holidays people are looking for.
 * Recieve contact details through use of contact form.
-***
+
 ## User Requirements and Expectations:
 ##### Requirements:
 * Manipulate an interactive map to see various holiday destinations.
@@ -60,7 +60,7 @@ The goal of this project is to help users find ideal holiday locations based on 
 * Navigation takes user to specific parts of the website.
 * Pop out nav appears in place of navbar on Tablet + Mobile Devices.
 * Form Validation works correctly.
-***
+
 ## Design Choices: 🎨
 
 The theme of this project is holidays and vacations, therefore my design choices are heavily influenced by positive colours and motifs. <a href='https://www.crazyegg.com/blog/colors-proven-to-boost-sales/'>This</a> Using the resources in this blog I was able to pick out a colour scheme that has been proven to boost sales/interaction with a web page.
@@ -96,11 +96,10 @@ $default-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 
 ##### Background:
 The background images I chose to use on the banner are sourced from royalty free websites, they showcase different types of ‘lifestyle’ shots on different holiday destinations. Arguably large images like the ones mentioned are great for encouraging sales and leads. 
-***
 
 ## Wireframes: 🔧
 I built the wireframes for this project using moqups + balsamiq
-***
+
 
 ## Features: 🎡
 
@@ -110,7 +109,7 @@ I built the wireframes for this project using moqups + balsamiq
 * Form Validation to help with spam attacks
 * Interactive Google Maps
 * Slide out navigation for mobile/tablet devices
-***
+
 ## Technologies Used: 👨‍💻
 
 * HTML5
@@ -122,11 +121,9 @@ I built the wireframes for this project using moqups + balsamiq
 * Google Fonts <a href="[Google Fonts](https://fonts.google.com/)">Link</a>
 * Font Awesome <a href="[Font Awesome](https://fontawesome.com/icons?d=gallery)">Link</a>
 * Bootstrap <a href="[Bootstrap · The most popular HTML, CSS, and JS library in the world.](https://getbootstrap.com/)">Link</a>
-***
+
 ## Testing: 🔌
-***
 ## Deployment: 🚀
-***
 ## Credits: 💳
 
 * Mixin for breakpoints: <a href="[Creating a Dead Simple Sass Mixin to Handle Responsive Breakpoints](https://medium.com/developing-with-sass/creating-a-dead-simple-sass-mixin-to-handle-responsive-breakpoints-889927b37740)">Link</a>
