@@ -45,7 +45,7 @@
 //hiden-nav (mobile/tablet)
 
 .hidden-nav {
-    background: $navigation-color;
+    background: $default-body-panel-color;
     position: fixed;
     top: 0;
     left: 0;
@@ -90,12 +90,14 @@
 
         &__list {
             list-style: none;
-            text-align:center;
+            padding-left: 15px;
 
             &__item {
                 padding-top: 10px;
+                
                 a {
-                 color: $tertiary-color;
+                color: $white-color;
+                font-size: 1rem;
 
                  &:hover {
                     color: darken($tertiary-color, 10%);
