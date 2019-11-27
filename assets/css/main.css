@@ -51,6 +51,17 @@ html {
   border: 2px solid #FF6B6B;
   color: white !important;
 }
+.btn__searcher {
+  background: #FF6B6B;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 15px;
+}
+.btn__searcher:hover {
+  color: #f2f2f2;
+  background: #ff5252;
+}
 
 .options {
   cursor: pointer;
@@ -154,6 +165,11 @@ html {
   width: 100%;
   overflow-y: scroll;
 }
+@media (max-width: 767px) {
+  .map__searcher {
+    height: 100%;
+  }
+}
 .map__searcher__panel {
   padding: 20px;
   margin: 20px;
@@ -170,6 +186,7 @@ html {
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
   text-align: center;
+  margin-bottom: 20px;
 }
 .map__searcher__overlay__text p {
   margin: 0;
@@ -182,18 +199,17 @@ html {
 }
 
 .move {
-  position: relative;
-  left: 0%;
-  transform: translatex(-38%);
-  animation: slide 0.2s linear;
+  text-align: left;
+  animation: slide 0.5s linear;
+  margin-left: 20px;
 }
 
 @keyframes slide {
   0% {
-    transform: translate(0%);
+    opacity: 0;
   }
   100% {
-    transform: translate(-36%);
+    opacity: 1;
   }
 }
 .overlay {
