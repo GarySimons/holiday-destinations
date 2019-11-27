@@ -1,18 +1,3 @@
-/**
- * This function checks that a specific input is not filled in
- * typically bots will automatically fill in all input fields 
- * on a contact form and spam it, in this case the function 
- * watches for the input form that is hidden to be filled in. 
- */
-$('#contact-form').on("submit", function(){
-  let check = document.forms["main-body__contact__form"]["honey-pot"].value;
-
-    if (check.length > 0) {
-        alert("Bot Detected initiate self destruct sequence");
-        return false;
-    };  
-});
-
 const optionsNav = $('.options');
 const scrollBtn = $('.scroll-top');
 
@@ -101,3 +86,18 @@ function initMap() {
         });
     });
 };
+
+/**
+ * This function checks that a specific input is not filled in
+ * typically bots will automatically fill in all input fields 
+ * on a contact form and spam it, in this case the function 
+ * watches for the input form that is hidden to be filled in. 
+ */
+$('#contact-form').on("submit", function(){
+  let check = document.forms["main-body__contact__form"]["honey-pot"].value;
+
+    if (check.length > 0) {
+        alert("Bot Detected initiate self destruct sequence");
+        return false;
+    };  
+});
