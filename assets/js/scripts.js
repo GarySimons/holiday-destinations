@@ -77,11 +77,7 @@ function initMap() {
 
                 const setPos = map.setCenter(marker.getPosition())
 
-                if (dataType == 'usa') {
-                    setPos
-                } else if (dataType == 'au') {
-                    setPos
-                } else {
+                if (dataType == '') {
                     setPos
                 };
 
