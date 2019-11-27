@@ -77,10 +77,6 @@ function initMap() {
 
                 const setPos = map.setCenter(marker.getPosition())
 
-                if (dataType == '') {
-                    setPos
-                };
-
                 if (marker.content){
                     let toolTip = new google.maps.InfoWindow({
                         content: marker.content,
