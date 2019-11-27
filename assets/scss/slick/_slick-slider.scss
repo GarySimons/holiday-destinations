@@ -34,18 +34,6 @@
                 }
             }
 
-            &__first {
-                background-image: url('../../assets/images/banner-images/winter-image.jpg');
-            }
-
-            &__second {
-                background-image: url('../../assets/images/banner-images/summer-image.jpg');
-            }
-
-            &__third {
-                background-image: url('../../assets/images/banner-images/all-inclusive.jpg');
-            }
-
             &__buttons {
                 display: inline-flex;
                 @include breakpoint(xs) {
@@ -58,4 +46,16 @@
             }
         }
     }
+}
+
+#main-slick-1 {
+    background-image: url('../../assets/images/banner-images/winter-image.jpg');
+}
+
+#main-slick-2 {
+    background-image: url('../../assets/images/banner-images/summer-image.jpg');
+}
+
+#main-slick-3 {
+    background-image: url('../../assets/images/banner-images/all-inclusive.jpg');
 }
