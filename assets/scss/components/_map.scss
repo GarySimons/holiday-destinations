@@ -67,6 +67,16 @@
     }
 }
 
+//custom info-window styling
+
+.gm-style-iw {
+    width: 3% !important;
+}
+
+.info-window {
+    text-align: center;
+}
+
 .move {
     text-align: left;
     animation: slide 0.5s linear;
