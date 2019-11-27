@@ -310,15 +310,6 @@ html {
 .main-body__slick__slide__text a {
   margin-top: 10px;
 }
-.main-body__slick__slide__first {
-  background-image: url("../../assets/images/banner-images/winter-image.jpg");
-}
-.main-body__slick__slide__second {
-  background-image: url("../../assets/images/banner-images/summer-image.jpg");
-}
-.main-body__slick__slide__third {
-  background-image: url("../../assets/images/banner-images/all-inclusive.jpg");
-}
 .main-body__slick__slide__buttons {
   display: inline-flex;
 }
@@ -329,6 +320,18 @@ html {
 }
 .main-body__slick__slide__buttons a {
   margin: 10px;
+}
+
+#main-slick-1 {
+  background-image: url("../../assets/images/banner-images/winter-image.jpg");
+}
+
+#main-slick-2 {
+  background-image: url("../../assets/images/banner-images/summer-image.jpg");
+}
+
+#main-slick-3 {
+  background-image: url("../../assets/images/banner-images/all-inclusive.jpg");
 }
 
 .main-header {
@@ -433,7 +436,9 @@ html {
 .hidden-nav__panel__image-nav__image p {
   width: 100%;
   padding: 10px 0;
-  background: #4ECDC4;
+  background: #FF6B6B;
+  color: #fff;
+  text-shadow: 1px 1px #000;
   text-align: center;
 }
 .open-nav .hidden-nav {
@@ -449,6 +454,22 @@ html {
   font-size: 1.5rem;
   color: white;
   text-shadow: 1px 1px #000;
+}
+
+#mob-nav-1 {
+  background-image: url("../../assets/images/mob-nav-1.jpg");
+}
+
+#mob-nav-2 {
+  background-image: url("../../assets/images/mob-nav-2.jpg");
+}
+
+#mob-nav-3 {
+  background-image: url("../../assets/images/mob-nav-3.jpg");
+}
+
+#mob-nav-4 {
+  background-image: url("../../assets/images/mob-nav-4.jpg");
 }
 
 .scroll-top {
