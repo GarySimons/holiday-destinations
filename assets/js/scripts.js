@@ -63,10 +63,14 @@ function initMap() {
                 });
 
                 const setPos = map.setCenter(marker.getPosition())
-
+                const infoWindowLayout = `
+                    <div class="info-window">
+                        ${marker.content}
+                    </div>
+                `
                 if (marker.content){
                     let toolTip = new google.maps.InfoWindow({
-                        content: marker.content,
+                        content: infoWindowLayout,
                         title: marker.title
                     });
 
