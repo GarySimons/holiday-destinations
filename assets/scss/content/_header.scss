@@ -119,7 +119,9 @@
                 p {
                     width: 100%;
                     padding: 10px 0;
-                    background: $primary-color;
+                    background: $navigation-color;
+                    color: $white-color;
+                    text-shadow: $default-text-shadow;
                     text-align: center;
                 }
             }
@@ -142,4 +144,22 @@
         color: white;
         text-shadow: $default-text-shadow;
     }
+}
+
+// mobile-nav ids for images
+
+#mob-nav-1 {
+    background-image: url('../../assets/images/mob-nav-1.jpg');
+}
+
+#mob-nav-2 {
+    background-image: url('../../assets/images/mob-nav-2.jpg');
+}
+
+#mob-nav-3 {
+    background-image: url('../../assets/images/mob-nav-3.jpg');
+}
+
+#mob-nav-4 {
+    background-image: url('../../assets/images/mob-nav-4.jpg');
 }
