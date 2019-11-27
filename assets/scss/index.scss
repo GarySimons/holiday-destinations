@@ -1,5 +1,8 @@
 // add scss partial scss files here using @imports
 
+//fonts
+@import 'fonts/fonts';
+
 //variables
 @import 'variables/variables';
 
@@ -24,4 +27,5 @@
 //static_content
 @import 'content/header';
 @import 'content/scroll-top';
+
 
