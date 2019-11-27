@@ -25,7 +25,6 @@
     &__searcher {
         height: 70vh;
         width: 100%;
-        overflow-y: scroll;
 
         @include breakpoint(xs) {
             height: 100%;
@@ -62,8 +61,8 @@
             display: none;
         }
 
-        &__show {
-            display: block;
+        &__scroll {
+            overflow-y: scroll !important;
         }
     }
 }
