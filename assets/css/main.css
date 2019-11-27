@@ -40,6 +40,17 @@ html {
 .btn__secondary:hover {
   transform: scale(1.05);
 }
+.btn__tertiary {
+  border: 2px solid #4ECDC4;
+  color: white !important;
+}
+.btn__tertiary:hover {
+  transform: scale(1.05);
+}
+.btn__tertiary__alt {
+  border: 2px solid #FF6B6B;
+  color: white !important;
+}
 
 .main-body__about-us {
   text-align: center;
@@ -281,7 +292,6 @@ html {
   }
 }
 .main-body__slick__slide__text a {
-  width: 55%;
   margin-top: 10px;
 }
 .main-body__slick__slide__first {
@@ -292,6 +302,17 @@ html {
 }
 .main-body__slick__slide__third {
   background-image: url("../../assets/images/banner-images/all-inclusive.jpg");
+}
+.main-body__slick__slide__buttons {
+  display: inline-flex;
+}
+@media (max-width: 767px) {
+  .main-body__slick__slide__buttons {
+    display: block;
+  }
+}
+.main-body__slick__slide__buttons a {
+  margin: 10px;
 }
 
 .main-header {
