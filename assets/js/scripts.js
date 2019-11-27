@@ -58,8 +58,7 @@ function initMap() {
 
     const map = new google.maps.Map(document.getElementById('map'), options);
 
-        optionsNav.on("click", function(e){
-            e.preventDefault();
+        optionsNav.on("click", function(){
             let dataType = $(this).attr('data-options');
 
             for(let i = 0;i < response[dataType].length;i++) {
