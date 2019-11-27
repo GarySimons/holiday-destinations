@@ -25,4 +25,18 @@
             transform: scale(1.05);
         }
     }
+
+    &__tertiary {
+        border: 2px solid $primary-color;
+        color: lighten($default-body-color, 10%)  !important;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+
+        &__alt {
+            border: 2px solid $navigation-color;
+            color: lighten($default-body-color, 10%)  !important;
+        }    
+    }
 }
