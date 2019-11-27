@@ -64,10 +64,8 @@ function initMap() {
             for(let i = 0;i < response[dataType].length;i++) {
                 
                 let location = response[dataType][i];
-                let location_title = location.title;
-                let location_content = location.content;
-
-                
+                let locationTitle = location.title;
+                let locationContent = location.content;
 
                     let marker = new google.maps.Marker({
                     position: new google.maps.LatLng(location.lat, location.lng),
@@ -98,7 +96,7 @@ function initMap() {
                     });
                 };
 
-                $(".iteration" + i).html("<h2>" + location_title + "</h2>" + location_content);
+                $(".iteration" + i).html("<h2>" + locationTitle + "</h2>" + locationContent);
             }; 
         });
     });
