@@ -152,35 +152,16 @@ html {
 .map__searcher {
   height: 70vh;
   width: 100%;
-  background: #F7fff7;
   overflow-y: scroll;
 }
 .map__searcher__panel {
   padding: 20px;
   margin: 20px;
-  color: white;
   background: #2a3439;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-}
-.map__searcher__overlay {
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.map__searcher__overlay::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  position: absolute;
+  color: #fff;
 }
 .map__searcher__overlay__text {
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-size: 1.2rem;
   padding: 20px;
   background: #FF6B6B;
@@ -188,6 +169,7 @@ html {
   text-shadow: 1px 1px #000;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
+  text-align: center;
 }
 .map__searcher__overlay__text p {
   margin: 0;
@@ -199,6 +181,21 @@ html {
   display: block;
 }
 
+.move {
+  position: relative;
+  left: 0%;
+  transform: translatex(-38%);
+  animation: slide 0.2s linear;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate(0%);
+  }
+  100% {
+    transform: translate(-36%);
+  }
+}
 .overlay {
   position: fixed;
   top: 0;
