@@ -1,35 +1,35 @@
 
-# Holiday Destinations
+# Holiday Destinations 🎪
 
-### Contents:
+## Contents:
 
-* UX
+* UX 👍
     * Project Goals
     * Target Audience Goals
     * Site Owner Goals
     * User Requirements and Expectations
-    * Design Choices
+    * Design Choices 🎨
         * Fonts
         * Icons
         * Colours
         * Styling
         * Images
         * Backgrounds
-* Wireframes
-* Features
+* Wireframes 🔧
+* Features 🎡
     * Features that have been developed
     *  Features that will be implemented in the future
-* Technologies Used
-* Testing
-* Deployment
-* Credits
+* Technologies Used 👨‍💻
+* Testing 🔌
+* Deployment 🚀
+* Credits 💳
 ***
 
-## UX (User Experience)
-##### Project Goals
+## UX (User Experience) 👍
+### Project Goals
 The goal of this project is to help users find ideal holiday locations based on packages that they interact with or the interactive map. The project is aimed toward holiday-makers and also families of all ages. The website needs to be visually appealing enough to encourage user interaction whilst also providing an good User Experience to entise shoppers to use our service.
 
-##### User Goals:
+#### User Goals:
 * A website that serves as an informative tool to help find the right holiday for them.
 * Attractive call to action across and throughout site to ensure high levels of engagement.
 * Interactive map so users can pick best selling holiday locations.
@@ -38,13 +38,13 @@ The goal of this project is to help users find ideal holiday locations based on 
 * Filter a map based on user input.
 * Interact with the website on both Desktop tablet or mobile.
 
-##### Site Owner Goals:
+#### Site Owner Goals:
 * Generate new leads and interest for holiday makers.
 * Gather information on what types of holidays people are looking for.
 * Recieve contact details through use of contact form.
-
-##### User Requirements and Expectations:
-###### Requirements:
+***
+## User Requirements and Expectations:
+##### Requirements:
 * Manipulate an interactive map to see various holiday destinations.
 * Navigate the website using the navbar/pop-out nav.
 * Be provided with information on various locations.
@@ -52,7 +52,7 @@ The goal of this project is to help users find ideal holiday locations based on 
 * Interact with map to find our more information about certain locations.
 * Contact Form validation to help against spam.
 
-###### Expectations:
+##### Expectations:
 * Map to display points of interest (best selling locations).
 * Can click markers which then display more information and a link to a package website.
 * Interact with sliding elements to select packages.
@@ -60,8 +60,8 @@ The goal of this project is to help users find ideal holiday locations based on 
 * Navigation takes user to specific parts of the website.
 * Pop out nav appears in place of navbar on Tablet + Mobile Devices.
 * Form Validation works correctly.
-
-### Design Choices:
+***
+## Design Choices: 🎨
 
 The theme of this project is holidays and vacations, therefore my design choices are heavily influenced by positive colours and motifs. <a href='https://www.crazyegg.com/blog/colors-proven-to-boost-sales/'>This</a> Using the resources in this blog I was able to pick out a colour scheme that has been proven to boost sales/interaction with a web page.
 
@@ -96,11 +96,13 @@ $default-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 
 ##### Background:
 The background images I chose to use on the banner are sourced from royalty free websites, they showcase different types of ‘lifestyle’ shots on different holiday destinations. Arguably large images like the ones mentioned are great for encouraging sales and leads. 
+***
 
-### Wireframes:
+## Wireframes: 🔧
 I built the wireframes for this project using moqups + balsamiq
+***
 
-### Features:
+## Features: 🎡
 
 * Sliding Banner
 * Sliding Package Deals
@@ -108,8 +110,8 @@ I built the wireframes for this project using moqups + balsamiq
 * Form Validation to help with spam attacks
 * Interactive Google Maps
 * Slide out navigation for mobile/tablet devices
-
-### Technologies Used:
+***
+## Technologies Used: 👨‍💻
 
 * HTML5
 * SASS/SCSS <a href="[Sass: Syntactically Awesome Style Sheets](https://sass-lang.com/)">Link</a>
@@ -120,8 +122,12 @@ I built the wireframes for this project using moqups + balsamiq
 * Google Fonts <a href="[Google Fonts](https://fonts.google.com/)">Link</a>
 * Font Awesome <a href="[Font Awesome](https://fontawesome.com/icons?d=gallery)">Link</a>
 * Bootstrap <a href="[Bootstrap · The most popular HTML, CSS, and JS library in the world.](https://getbootstrap.com/)">Link</a>
-
-### Credits:
+***
+## Testing: 🔌
+***
+## Deployment: 🚀
+***
+## Credits: 💳
 
 * Mixin for breakpoints: <a href="[Creating a Dead Simple Sass Mixin to Handle Responsive Breakpoints](https://medium.com/developing-with-sass/creating-a-dead-simple-sass-mixin-to-handle-responsive-breakpoints-889927b37740)">Link</a>
 
