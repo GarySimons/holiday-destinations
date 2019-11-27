@@ -366,7 +366,7 @@ html {
 }
 
 .hidden-nav {
-  background: #FF6B6B;
+  background: #2a3439;
   position: fixed;
   top: 0;
   left: 0;
@@ -408,13 +408,14 @@ html {
 }
 .hidden-nav__panel__list {
   list-style: none;
-  text-align: center;
+  padding-left: 15px;
 }
 .hidden-nav__panel__list__item {
   padding-top: 10px;
 }
 .hidden-nav__panel__list__item a {
-  color: #1A535C;
+  color: #fff;
+  font-size: 1rem;
 }
 .hidden-nav__panel__list__item a:hover {
   color: #0f2f34;
