@@ -163,7 +163,6 @@ html {
 .map__searcher {
   height: 70vh;
   width: 100%;
-  overflow-y: scroll;
 }
 @media (max-width: 767px) {
   .map__searcher {
@@ -194,8 +193,8 @@ html {
 .map__searcher__hide {
   display: none;
 }
-.map__searcher__show {
-  display: block;
+.map__searcher__scroll {
+  overflow-y: scroll !important;
 }
 
 .move {
