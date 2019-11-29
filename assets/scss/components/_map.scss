@@ -6,6 +6,21 @@
     width: 100%;
 }
 
+#destinations {
+    // overwrite button styles for buttons inside #destinations section
+    .btn__secondary {
+        margin-left: 10px;
+        margin-right: 10px;
+
+        @include breakpoint(xs) {
+            padding: 5px 15px;
+            border-radius: 30px;
+        }
+    }
+}
+
+
+// map section styling
 .map {
     padding: 75px 0;
     background: $secondary-color;
@@ -15,6 +30,11 @@
         text-shadow: $default-text-shadow;
         padding-bottom: 40px;
         text-align: center;
+        
+        @include breakpoint(xs) {
+            text-align: center;
+            margin: 0;
+        }
     }
 
     &__wrapper {
@@ -67,7 +87,7 @@
     }
 }
 
-//custom info-window styling
+// custom info-window styling
 
 .gm-style-iw {
     width: 3% !important;
@@ -81,8 +101,14 @@
     text-align: left;
     animation: slide 0.5s linear;
     margin-left: 20px;
+
+    @include breakpoint(xs) {
+            text-align: center;
+            margin: 0;
+        }
 }
 
+// animations
 @keyframes slide {
     0%   { 
     opacity: 0;
