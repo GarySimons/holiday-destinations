@@ -158,9 +158,6 @@ html {
   padding-left: 4px;
 }
 
-.main-body__content {
-  padding: 75px 0;
-}
 .main-body__content__copy {
   max-width: 100%;
   margin: auto;
@@ -168,6 +165,9 @@ html {
 }
 .main-body__content__copy h1 {
   padding-bottom: 20px;
+}
+.main-body__content__copy p {
+  padding: 0 15px;
 }
 
 #map {
@@ -309,7 +309,7 @@ html {
 }
 
 .packages {
-  padding-top: 75px;
+  padding-top: 20px;
 }
 .packages__panel {
   padding: 10px;
@@ -393,6 +393,19 @@ html {
 }
 .main-body__slick__slide__text a {
   margin-top: 10px;
+}
+@media (max-width: 767px) {
+  .main-body__slick__slide__text a {
+    margin-top: 0;
+  }
+}
+.main-body__slick__slide__text h1 {
+  font-size: 4rem;
+}
+@media (max-width: 767px) {
+  .main-body__slick__slide__text h1 {
+    font-size: 2rem;
+  }
 }
 .main-body__slick__slide__buttons {
   display: inline-flex;
