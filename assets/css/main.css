@@ -320,6 +320,7 @@ html {
   margin-left: 15px;
   background-size: cover;
   height: 400px !important;
+  transition: all 0.2s ease-in-out;
 }
 .packages__slick__slide__panel {
   text-shadow: 1px 1px #000;
@@ -338,6 +339,9 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.packages__slick__slide:hover {
+  transform: scale(1.03);
 }
 
 #package-1 {
