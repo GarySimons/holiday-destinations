@@ -22,7 +22,6 @@
 
 // map section styling
 .map {
-    padding: 75px 0;
     background: $secondary-color;
 
     &__title {
@@ -30,10 +29,11 @@
         text-shadow: $default-text-shadow;
         padding-bottom: 40px;
         text-align: center;
-        
+    
         @include breakpoint(xs) {
             text-align: center;
-            margin: 0;
+            margin-left: 15px;
+            margin-right: 15px;
         }
     }
 
