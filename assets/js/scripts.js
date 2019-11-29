@@ -37,7 +37,7 @@ function initMap() {
         .then(response => {
 
     const options = {
-        zoom: 3,
+        zoom: 4,
         center: {lat:49.473925,lng:6.988208}
     };
 
