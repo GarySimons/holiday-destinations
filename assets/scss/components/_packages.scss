@@ -1,6 +1,6 @@
 .packages {
     padding-top: 20px;
-    
+
     &__panel {
         padding: 10px;
     }
@@ -13,6 +13,7 @@
             margin-left: 15px;
             background-size: cover;
             height: 400px !important;
+            transition: $default-transition;
 
             &__panel {
                 text-shadow: $default-text-shadow;
@@ -32,6 +33,10 @@
                     left: 50%;
                     transform: translate(-50%, -50%);
                 }
+            }
+
+            &:hover {
+                transform: scale(1.03);
             }
         }
     }
