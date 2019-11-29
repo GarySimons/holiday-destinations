@@ -10,8 +10,7 @@ const scrollBtn = $('.scroll-top');
   });
 
 //nav open button
-$('.nav-button').on('click', function(e) {
-    e.preventDefault();
+$('.nav-button').on('click', function() {
     $('html').addClass('open-nav show-overlay');
 });
 
@@ -38,7 +37,7 @@ function initMap() {
         .then(response => {
 
     const options = {
-        zoom: 4,
+        zoom: 3,
         center: {lat:49.473925,lng:6.988208}
     };
 
@@ -54,7 +53,7 @@ function initMap() {
                 let locationTitle = location.title;
                 let locationContent = location.content;
 
-                    let marker = new google.maps.Marker({
+                let marker = new google.maps.Marker({
                     position: new google.maps.LatLng(location.lat, location.lng),
                     map: map,
                     animation: google.maps.Animation.DROP,
@@ -63,12 +62,13 @@ function initMap() {
                 });
 
                 const setPos = map.setCenter(marker.getPosition())
+
                 const infoWindowLayout = `
                     <div class="info-window">
                         ${marker.content}
                     </div>
                 `
-                if (marker.content){
+                if (marker.content) {
                     let toolTip = new google.maps.InfoWindow({
                         content: infoWindowLayout,
                         title: marker.title
@@ -85,6 +85,7 @@ function initMap() {
                     <p>${locationContent}</p>
                 </div>
                 `;
+
                 $(".locationDetails" + i).html(destinationInfo);
             }; 
         });
