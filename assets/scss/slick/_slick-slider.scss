@@ -31,6 +31,18 @@
 
                 a {
                     margin-top: 10px;
+
+                    @include breakpoint(xs) {
+                        margin-top: 0;
+                    }
+                }
+
+                h1 {
+                    font-size: 4rem;
+
+                    @include breakpoint(xs) {
+                        font-size: 2rem;
+                    }
                 }
             }
 
