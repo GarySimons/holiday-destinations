@@ -129,6 +129,6 @@ I built the wireframes for this project using moqups + balsamiq
 ## Credits: 💳
 
 * Mixin for breakpoints: <a href="[Creating a Dead Simple Sass Mixin to Handle Responsive Breakpoints](https://medium.com/developing-with-sass/creating-a-dead-simple-sass-mixin-to-handle-responsive-breakpoints-889927b37740)">Link</a>
-
+* Favicon generator: https://www.favicon-generator.org/
 
 
