@@ -94,13 +94,13 @@
 
             &__item {
                 padding-top: 10px;
-                a {
-                 color: $tertiary-color;
+                    a {
+                        color: $white-color;
 
-                 &:hover {
-                    color: darken($tertiary-color, 10%);
-                    text-decoration: none;
-                 }
+                        &:hover {
+                            color: $darken($white-color, 10%);
+                        }
+                    }
                 }
             }
         }
