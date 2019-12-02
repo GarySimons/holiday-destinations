@@ -98,6 +98,8 @@ function initMap() {
  * typically bots will automatically fill in all input fields 
  * on a contact form and spam it, in this case the function 
  * watches for the input form that is hidden to be filled in. 
+ * It will also send an alert notifying the user that the message
+ * has been recieved if the length of check is 0.
  */
 contactForm.on("submit", function(){
   const check = document.forms["main-body__contact__form"]["honey-pot"].value;
