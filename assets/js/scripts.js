@@ -1,5 +1,6 @@
 const optionsNav = $('.options');
 const scrollBtn = $('.scroll-top');
+const contactForm = $('#contact-form');
 
  $(window).scroll(function() {
     if ($(window).scrollTop() > 300) {
@@ -98,11 +99,15 @@ function initMap() {
  * on a contact form and spam it, in this case the function 
  * watches for the input form that is hidden to be filled in. 
  */
-$('#contact-form').on("submit", function(){
+contactForm.on("submit", function(){
   const check = document.forms["main-body__contact__form"]["honey-pot"].value;
 
     if (check.length > 0) {
         alert("Bot Detected initiate self destruct sequence");
         return false;
+    } else {
+        (check.length == 0) 
+        alert("Thankyou, your message has been recieved!");
     };  
 });
+
