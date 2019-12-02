@@ -159,9 +159,12 @@ As this was my first time being exposed to the Google Maps API, my testing was e
 * During a User-review I was informed that there is a much more modern way of requesting data from an external source using JavaScript, using the fetch api. I previously was using a classic XHR http request but the fetch api was both easier to use and was done in less lines of code.
 
 * Around half way through this project i decided to elevate the SASS code i was writing by splitting off the sections of SASS code into their own partial files, not only did this clean up my code in terms of readability but also allowed me to have a global ‘index’ file from which I could compile SASS code from.## Deployment: 🚀
+## Deployment: 🚀
+This project was deployed on Github pages.
 ## Credits: 💳
 
-* Mixin for breakpoints: <a href="[Creating a Dead Simple Sass Mixin to Handle Responsive Breakpoints](https://medium.com/developing-with-sass/creating-a-dead-simple-sass-mixin-to-handle-responsive-breakpoints-889927b37740)">Link</a>
-* Favicon generator: https://www.favicon-generator.org/
+* <a href="[Creating a Dead Simple Sass Mixin to Handle Responsive Breakpoints](https://medium.com/developing-with-sass/creating-a-dead-simple-sass-mixin-to-handle-responsive-breakpoints-889927b37740)">Mixin For Breakpoints</a>
+* <a href="[Favicon & App Icon Generator](https://www.favicon-generator.org/)">Favicon Generator</a>  
+* <a href="[BEM — Block Element Modifier](http://getbem.com/introduction/)">B.E.M</a>
 
 
