@@ -131,15 +131,21 @@ I built the wireframes for this project using Balsamiq mockups + Moqups. First I
 
 ## Technologies Used: 👨‍💻
 
-* HTML5
-* SASS/SCSS <a href="[Sass: Syntactically Awesome Style Sheets](https://sass-lang.com/)">Link</a>
-* JavaScript
-* JQuery <a href="[jQuery](https://jquery.com/)">Link</a>
-* Google Places <a href="[Overview  \|  Places API  |  Google Developers](https://developers.google.com/places/web-service/intro)">Link</a>
-* Slick.js <a href="[slick - the last carousel you'll ever need](https://kenwheeler.github.io/slick/)">Link</a>
-* Google Fonts <a href="[Google Fonts](https://fonts.google.com/)">Link</a>
-* Font Awesome <a href="[Font Awesome](https://fontawesome.com/icons?d=gallery)">Link</a>
-* Bootstrap <a href="[Bootstrap · The most popular HTML, CSS, and JS library in the world.](https://getbootstrap.com/)">Link</a>
+### Languages:
+
+* <a href="[HTML: Hypertext Markup Language \| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)">HTML</a>
+* <a href="[CSS: Cascading Style Sheets \| MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)">CSS</a>
+* <a href="[JavaScript Tutorial](https://www.w3schools.com/js/)">JavaScript</a>
+
+### Tools & Libraries:
+
+* <a href="[jQuery](https://jquery.com/)">jQuery</a>
+* <a href="[The world’s leading software development platform · GitHub](https://github.com/)">GitHub</a>
+* <a href="[Overview  \|  Maps JavaScript API  |  Google Developers](https://developers.google.com/maps/documentation/javascript/tutorial)">Google Maps</a>
+* <a href="[slick - the last carousel you'll ever need](https://kenwheeler.github.io/slick/)">Slick Carousel</a>
+* <a href="[gulp.js - The streaming build system](https://gulpjs.com/)">Gulp.js</a>
+* <a href="[Sass: Syntactically Awesome Style Sheets](https://sass-lang.com/)">SASS/SCSS</a>
+* <a href="[JSON](https://www.json.org/json-en.html)">JSON</a>
 
 ## Testing: 🔌
 ## Deployment: 🚀
