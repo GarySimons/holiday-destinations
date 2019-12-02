@@ -108,8 +108,13 @@ $default-transition: all 0.2s ease-in-out;
 $default-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 ```
 
+##### BEM:
+
+BEM Stands for block element modifier, and is a way of writing CSS/SASS code in order to organise the code into a much more readable format. Head to the credits to read more about BEM style.
+
+
 ##### Background:
-The background images I chose to use on the banner are sourced from royalty free websites, they showcase different types of ‘lifestyle’ shots on different holiday destinations. Arguably large images like the ones mentioned are great for encouraging sales and leads. 
+The background images I chose to use on the banner are sourced from royalty free websites, they showcase different types of ‘lifestyle’ shots on different holiday destinations. Arguably large images like the ones mentioned are great for encouraging sales and leads. I manually resize the images using a tool called Gimp, having accurately sized images reduces the load time of the website. 
 
 ## Wireframes: 🔧
 I built the wireframes for this project using moqups + balsamiq
