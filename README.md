@@ -148,7 +148,17 @@ I built the wireframes for this project using Balsamiq mockups + Moqups. First I
 * <a href="[JSON](https://www.json.org/json-en.html)">JSON</a>
 
 ## Testing: 🔌
-## Deployment: 🚀
+As this was my first time being exposed to the Google Maps API, my testing was extremely thorough, making sure that I scrutinized every line of code and detail not only meant that the code ran without issues, but also allowed me to learn more in depth how to work with the API. Testing involved my own personal testing and also that of my peers and fellow students.
+
+##### Testing Stories:
+
+* I was informed that the colours I had initially chose clashed too much in terms of contrast, i then used coolors.co to select a new color scheme and implemented the new colours. 
+
+* I ran into an issue with how I was accessing data from the JSON object, what i thought was a request to the individual nested country code was actually returning ‘undefined’ due to me not using correct syntax. Fixing this using square braces to pass in the value allowed to me accurately collect that required data from the file.
+
+* During a User-review I was informed that there is a much more modern way of requesting data from an external source using JavaScript, using the fetch api. I previously was using a classic XHR http request but the fetch api was both easier to use and was done in less lines of code.
+
+* Around half way through this project i decided to elevate the SASS code i was writing by splitting off the sections of SASS code into their own partial files, not only did this clean up my code in terms of readability but also allowed me to have a global ‘index’ file from which I could compile SASS code from.## Deployment: 🚀
 ## Credits: 💳
 
 * Mixin for breakpoints: <a href="[Creating a Dead Simple Sass Mixin to Handle Responsive Breakpoints](https://medium.com/developing-with-sass/creating-a-dead-simple-sass-mixin-to-handle-responsive-breakpoints-889927b37740)">Link</a>
