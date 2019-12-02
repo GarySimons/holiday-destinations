@@ -235,6 +235,8 @@ During planning for this project i knew that i needed to have a bulletproof test
 
 ## Deployment: 🚀
 This project was deployed on Github pages.
+## Closing Notes:
+Developing this project has taught me alot about how to provide users with appropriate data based on their interaction, working with new concepts like JSON objects has pushed my knowledge further and has helped me better understand how to manipulate this type of code. In the future I would like to implement other features like the ability to add certain packages to a wishlist to then review, compare and send to the company for further enquiry. As mentioned in the testing section this was the first time using the Google Maps API and therefore was a challenge to get to grips, however thanks to the helpful documentation I was able to achieve a solution in-line with the user requirements and also my plan made in testing.
 ## Credits: 💳
 
 * <a href="[Creating a Dead Simple Sass Mixin to Handle Responsive Breakpoints](https://medium.com/developing-with-sass/creating-a-dead-simple-sass-mixin-to-handle-responsive-breakpoints-889927b37740)">Mixin For Breakpoints</a>
