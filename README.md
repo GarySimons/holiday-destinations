@@ -240,5 +240,5 @@ This project was deployed on Github pages.
 * <a href="[Creating a Dead Simple Sass Mixin to Handle Responsive Breakpoints](https://medium.com/developing-with-sass/creating-a-dead-simple-sass-mixin-to-handle-responsive-breakpoints-889927b37740)">Mixin For Breakpoints</a>
 * <a href="[Favicon & App Icon Generator](https://www.favicon-generator.org/)">Favicon Generator</a>  
 * <a href="[BEM — Block Element Modifier](http://getbem.com/introduction/)">B.E.M</a>
-
-
+* <a href="https://www.crazyegg.com/blog/colors-proven-to-boost-sales/">Colour Research</a>=
+* <a href="[Coolors.co - The super fast color schemes generator](https://coolors.co/)">Coolors.co</a>
