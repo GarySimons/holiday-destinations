@@ -99,7 +99,7 @@ function initMap() {
  * watches for the input form that is hidden to be filled in. 
  */
 $('#contact-form').on("submit", function(){
-  let check = document.forms["main-body__contact__form"]["honey-pot"].value;
+  const check = document.forms["main-body__contact__form"]["honey-pot"].value;
 
     if (check.length > 0) {
         alert("Bot Detected initiate self destruct sequence");
