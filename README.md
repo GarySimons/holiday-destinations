@@ -1,6 +1,6 @@
 
 # Holiday Destinations 🎪
-
+![alt text](https://geomint.github.io/holiday-destinations-v2/assets/images/mutli-device-screenshot.png)
 Thankyou for visiting my project, please feel free to read through the Read-me and browse my project, if you have any questions or suggestions drop me an email at george.pyott@googlemail.com. Happy Coding!👨‍💻
 ## Contents:
 
@@ -70,7 +70,7 @@ The theme of this project is holidays and vacations, therefore my design choices
 I chose to use the font LATO as it showcases a very simplistic style which compliments the minimalist nature of the overall site design. The focus of the content is to provide an informative experience for the customer, which heavily influenced my decision to choose a font that isn't too ambiguous.
 
 ##### Icons: 
-The icons used are self explanatory so that the user does not need to struggle to interpret what the icon will actually do.
+The icons used are self explanatory so that the user does not need to struggle to interpret what the icon will actually do. I use the icon ‘bars’ from font-awesome icons, to display the classic ‘burger-button’ on tablet and mobile devices, this is well known in the industry as being a point for navigation. I had to make sure that the icon was big enough on smaller devices to ensure easy access.
 
 ##### Colours:
 Using learned knowledge from prior research, bright and vibrant colours have a higher influence in terms of positivity and therefore more potential sales/leads and interactions: Using <a href='[Generate - Coolors.co](https://coolors.co/d9f0ff-5bc0eb-e55934-fa7921-fde74c)'>This</a> i was able to find a colour scheme that suited the afor mentioned points.
