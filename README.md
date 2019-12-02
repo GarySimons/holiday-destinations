@@ -84,17 +84,29 @@ Using learned knowledge from prior research, bright and vibrant colours have a h
 
 ##### Styling: 
 
-Thanks to SASS/SCSS I was easily able to set variables in my stylesheets that ask as the house style - this means that the styles can be used in multiple places without having to repeat code. 
+Thanks to SASS/SCSS I was easily able to set variables in my stylesheets that ask as the house style - this means that the styles can be used in multiple places without having to repeat code. Using SASS also allowed me to better structure my stylesheets, splitting them off into partial files for example, splitting the css into ‘component’ files, i.e map, buttons, headers (see assets/scss for all partial files). Using BEM allowed me to easily nest my SASS code and also making my HTML code much more readable.
 
-Example Variables:
+##### Example Variables:
 
-$primary-color: #5BC0EB; 
-$secondary-color: #FA7921;
-$default-link-color: #FDE74C;
- 
+Colours: 
+
+```sass
+$primary-color: #4ECDC4;
+$secondary-color: #264c5f;
+$tertiary-color: #1A535C;
+$navigation-color: #FF6B6B;
+$default-body-color: #F7fff7;
+$default-body-panel-color: #2a3439;
+$white-color: #fff;
+```
+
+Default Styling:
+
+```sass
 $default-text-shadow: 1px 1px #000;
 $default-transition: all 0.2s ease-in-out;
 $default-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+```
 
 ##### Background:
 The background images I chose to use on the banner are sourced from royalty free websites, they showcase different types of ‘lifestyle’ shots on different holiday destinations. Arguably large images like the ones mentioned are great for encouraging sales and leads. 
