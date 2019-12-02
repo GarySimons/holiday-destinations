@@ -46,10 +46,10 @@ The goal of this project is to help users find ideal holiday locations based on 
 #### User Stories:
 
 ##### Mr Smith: 
-<em>"As a user i want to be able to use this tool to find the best holiday locations based on areas around the world, the ideal application for this would be on a website that works on both tablet and a mobile ideally we would be able to have somewhere to get in touch with the company so we could get an extra level of service. When i interact with the certain packages on the page i would expect that i either am served some results based on my click."</em>
+<em>"As a user I want to be able to use this tool to find the best holiday locations based on areas around the world, the ideal application for this would be on a website that works on both tablet and a mobile ideally we would be able to have somewhere to get in touch with the company so we could get an extra level of service. When I interact with the certain packages on the page I would expect that I either am served some results based on my click."</em>
 
 ##### Gabriel P:
-<em>"In todays market its hard to find a website that narrows down location options based on location without being overwhelmed by aggressive marketing, for me personally i would expect this site to function seemlessley when I interact with it. Finding the location seems to be the hard part these days and ideally the site will help with that. When i refine the search down to a specific area i want to be able to interact with the map to read more information about the specific areas."</em>
+<em>"In todays market its hard to find a website that narrows down location options based on location without being overwhelmed by aggressive marketing, for me personally I would expect this site to function seemlessley when I interact with it. Finding the location seems to be the hard part these days and ideally the site will help with that. When I refine the search down to a specific area I want to be able to interact with the map to read more information about the specific areas."</em>
 
 ##### Dave: 
 <em>"When I interact with a website like this, the key for me is not having too much choice, all the time I find myself on websites that try and cram marketing down your throat as soon as you enter their site, this site nicely offers you locations without being too aggressive."</em>
@@ -181,7 +181,7 @@ During planning for this project i knew that i needed to have a bulletproof test
 
 * Around half way through this project i decided to elevate the SASS code i was writing by splitting off the sections of SASS code into their own partial files, not only did this clean up my code in terms of readability but also allowed me to have a global ‘index’ file from which I could compile SASS code from.
 
-#### Overall:
+### Overall:
 
 <strong>Responsiveness - </strong>
 * <strong>Plan</strong> 📝: I knew that this project needed to be FULLY responsive and mobile friendly therefore the obvious option to use Bootstrap as this HTML Framework I'm most comfortable using. Testing using dev-tools throughout and also a final test of the entire site after completion.
@@ -195,7 +195,7 @@ During planning for this project i knew that i needed to have a bulletproof test
 * <strong>Result</strong> 🏆: The colours chosen work well for the theme of the site.
 * <strong>Verdict</strong> ✅: This test has passed and the overall colour scheme fits well for the purpose of the site.
 
-#### Features:
+### Features:
 
 <strong>Sliding Banner -</strong>
 * <strong>Plan</strong> 📝: During planning i was debating whether or not to include a sliding banner in my project as often they can be considered unnecessary for a good user experience, however I decided that it was an added benefit due to the lifestyle imagery being full screen.
