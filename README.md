@@ -75,11 +75,12 @@ The icons used are self explanatory so that the user does not need to struggle t
 ##### Colours:
 Using learned knowledge from prior research, bright and vibrant colours have a higher influence in terms of positivity and therefore more potential sales/leads and interactions: Using <a href='[Generate - Coolors.co](https://coolors.co/d9f0ff-5bc0eb-e55934-fa7921-fde74c)'>This</a> i was able to find a colour scheme that suited the afor mentioned points.
 
-Primary: #5BC0EB “Blue Jeans” I chose this as the primary colour as the colour blue is great to influence thoughts of trust, honesty and intelligence.
-
-Secondary: #FA7921 “Princeton Orange” I chose this as the secondary colour as this colour provides an eye catching contrast to blue as well as having the added benefit of triggering optimistic emotions.
-
-Tertiary: #FDE74C “Gargoyle Gas” Finally this tertiary colour will be used as an accent highlight on certain elements, this colour promoted happiness among the average person and therefore (hopefully) influence more sales/leads.
+* Primary: #4ECDC4 “Moderate cyan” I chose this as the primary colour as the colour cyan is great to influence thoughts of trust, honesty and intelligence.
+* Secondary: #264c5f “Very dark blue” I chose this as the secondary colour as this colour provides an eye catching variation to the primary blue, this is used in most places as a background colour.
+* Tertiary: #1A535C “Arapawa” This tertiary colour will be used as an accent highlight on certain elements, this colour promotes happiness among the average person and therefore (hopefully) influence more sales/leads.
+* Navigation Colour: #FF6B6B “Bittersweet” This bursting colour provides excellent contrast for the dark blues, with the added benefit of being a blend of orange/red which influences a hightened emotional response.
+* Default Body Colour: #F7fff7 "Mint White" This off white colour will provide a discreet contrast from the blue theme i've got within this project, a subtle yet effective default body colour.
+* Default Body Panel Colour: #2a3439 "Darkest Blue" This dark shade of blue will be used to provide backgrounds to specific panels of interest especially on the hero section of the website.
 
 ##### Styling: 
 
