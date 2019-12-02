@@ -107,7 +107,7 @@ Thanks to SASS/SCSS I was easily able to set variables in my stylesheets that as
 
 Colours: 
 
-```sass
+```css
 $primary-color: #4ECDC4;
 $secondary-color: #264c5f;
 $tertiary-color: #1A535C;
@@ -119,7 +119,7 @@ $white-color: #fff;
 
 Default Styling:
 
-```sass
+```css
 $default-text-shadow: 1px 1px #000;
 $default-transition: all 0.2s ease-in-out;
 $default-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
