@@ -6,10 +6,31 @@
     z-index: 1;
     background: rgba(0,0,0,0.4);
 
+    &__logo {
+        padding-left: 20px;
+
+        img {
+            max-width: 70%;
+
+            @include breakpoint(xs) {
+                max-width: 40%;
+            }
+        }
+    }
+
     &__nav {
         display: flex;
         list-style: none;
         padding: 20px 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        @include breakpoint(lg) {
+            left: 40%;
+            transform: translate(-30%, -50%);
+        }
 
         &__item {
             padding: 0 0 0 40px;
