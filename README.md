@@ -1,7 +1,7 @@
 
 # Holiday Destinations 🎪
 
-![alt text](https://geomint.github.io/holiday-destinations-v2/assets/images/mutli-device-screenshot.png)
+![Mutli Device Screenshot](https://geomint.github.io/holiday-destinations-v2/assets/images/mutli-device-screenshot.png)
 
 
 Thankyou for visiting my project, please feel free to read through the Read-me and browse my project, if you have any questions or suggestions drop me an email at george.pyott@googlemail.com. Happy Coding!
