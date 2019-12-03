@@ -150,19 +150,19 @@ I built the wireframes for this project using Balsamiq mockups + Moqups. First I
 
 ### Languages:
 
-* <a href="[HTML: Hypertext Markup Language \| MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)">HTML</a>
-* <a href="[CSS: Cascading Style Sheets \| MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)">CSS</a>
-* <a href="[JavaScript Tutorial](https://www.w3schools.com/js/)">JavaScript</a>
+* <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a>
+* <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a>
+* <a href="https://www.w3schools.com/js/">JavaScript</a>
 
 ### Tools & Libraries:
 
-* <a href="[jQuery](https://jquery.com/)">jQuery</a>
-* <a href="[The world’s leading software development platform · GitHub](https://github.com/)">GitHub</a>
-* <a href="[Overview  \|  Maps JavaScript API  |  Google Developers](https://developers.google.com/maps/documentation/javascript/tutorial)">Google Maps</a>
-* <a href="[slick - the last carousel you'll ever need](https://kenwheeler.github.io/slick/)">Slick Carousel</a>
-* <a href="[gulp.js - The streaming build system](https://gulpjs.com/)">Gulp.js</a>
-* <a href="[Sass: Syntactically Awesome Style Sheets](https://sass-lang.com/)">SASS/SCSS</a>
-* <a href="[JSON](https://www.json.org/json-en.html)">JSON</a>
+* <a href="https://jquery.com/">jQuery</a>
+* <a href="https://github.com/">GitHub</a>
+* <a href="https://developers.google.com/maps/documentation/javascript/tutorial">Google Maps</a>
+* <a href="https://kenwheeler.github.io/slick/">Slick Carousel</a>
+* <a href="https://gulpjs.com/">Gulp.js</a>
+* <a href="https://sass-lang.com/">SASS/SCSS</a>
+* <a href="https://www.json.org/json-en.html">JSON</a>
 
 ## Testing: 🔌
 As this was my first time being exposed to the Google Maps API, my testing was extremely thorough, making sure that I scrutinized every line of code and detail not only meant that the code ran without issues, but also allowed me to learn more in depth how to work with the API. Testing involved my own personal testing and also that of my peers and fellow students.
