@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Geomint/holiday-destinations-v2#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
     "gulp-uglify": "3.0.2",
     "gulp-uglify-es": "^2.0.0"
   }
