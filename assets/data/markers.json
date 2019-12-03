@@ -17,6 +17,12 @@
             "lng" : -3.0886,
             "title": "The Lake District",
             "content": "The Lake District is a region and national park in Cumbria in northwest England. <br> <a class=\"btn btn__searcher\" target=\"_blank\" rel=\"noopener\" href=\"https://www.tripadvisor.co.uk/SmartDeals-g186318-Lake_District_Cumbria_England-Hotel-Deals.html\">Find Great Deals</a>"
+        },
+        {
+            "lat" : 55.9533,
+            "lng" : -3.1883,
+            "title": "Edinburgh",
+            "content": "Edinburgh is Scotland's compact, hilly capital. It has a medieval Old Town and elegant Georgian New Town with gardens and neoclassical buildings.. <br> <a class=\"btn btn__searcher\" target=\"_blank\" rel=\"noopener\" href=\"https://www.expedia.co.uk/Edinburgh.d6069845.Holidays-City-Breaks\">Find Great Deals</a>"
         }
     ],
 
@@ -38,6 +44,12 @@
             "lng" : -99.9018,
             "title": "Texas",
             "content": "Texas is a large state in the southern U.S. with deserts, pine forest and the Rio Grande. <br> <a class=\"btn btn__searcher\" target=\"_blank\" rel=\"noopener\" href=\"https://www.virginholidays.co.uk/destinations/usa/texas-holidays\">Find Great Deals</a>"
+        },
+        {
+            "lat" : 36.1699,
+            "lng" : -115.1398,
+            "title": "Las Vegas",
+            "content": "Las Vegas, officially the City of Las Vegas and often known simply as Vegas, is the 28th-most populated city in the United States, the most populated city in the state of Nevada, and the county seat of Clark County. <br> <a class=\"btn btn__searcher\" target=\"_blank\" rel=\"noopener\" href=\"https://www.lastminute.com/holidays/las-vegas.html\">Find Great Deals</a>"
         }
     ],
 
@@ -59,6 +71,12 @@
             "lng" : 153.0251,
             "title": "Brisbane",
             "content": "Brisbane, capital of Queensland, is a large city on the Brisbane River. <br> <a class=\"btn btn__searcher\" target=\"_blank\" rel=\"noopener\" href=\"https://www.britishairways.com/en-gb/destinations/far-east-and-australia/australia\">Find Great Deals</a>"
+        },
+        {
+            "lat" : -16.9186,
+            "lng" : 145.7781,
+            "title": "Cairns",
+            "content": "Cairns, considered the gateway to Australia's Great Barrier Reef, is a city in tropical Far North Queensland. <br> <a class=\"btn btn__searcher\" target=\"_blank\" rel=\"noopener\" href=\"https://sightseeingtoursaustralia.com.au/australian-tours/cairns\">Find Great Deals</a>"
         }
     ]
 }
