@@ -109,7 +109,7 @@ contactForm.on("submit", function(){
         return false;
     } else {
         (check.length == 0) 
-        alert("Thankyou, your message has been recieved!");
+        alert("Thankyou, your message has been received!");
     };  
 });
 
