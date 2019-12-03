@@ -445,6 +445,10 @@ html {
   display: flex;
   list-style: none;
   padding: 20px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .main-header__nav__item {
   padding: 0 0 0 40px;
@@ -458,6 +462,12 @@ html {
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
+.main-header__nav__logo {
+  padding-left: 40px;
+}
+.main-header__nav__logo img {
+  max-width: 70%;
+}
 .main-header__nav-bars {
   padding: 20px;
 }
@@ -470,7 +480,7 @@ html {
 }
 
 .hidden-nav {
-  background: #2a3439;
+  background: #FF6B6B;
   position: fixed;
   top: 0;
   left: 0;
@@ -512,65 +522,46 @@ html {
 }
 .hidden-nav__panel__list {
   list-style: none;
-  padding-left: 15px;
+  text-align: center;
 }
 .hidden-nav__panel__list__item {
   padding-top: 10px;
 }
 .hidden-nav__panel__list__item a {
   color: #fff;
-  font-size: 1rem;
 }
 .hidden-nav__panel__list__item a:hover {
-  color: #0f2f34;
-  text-decoration: none;
+  color: #e6e6e6;
 }
-.hidden-nav__panel__image-nav {
+.hidden-nav__image-nav {
   padding-top: 30px;
 }
-.hidden-nav__panel__image-nav__image {
+.hidden-nav__image-nav__image {
   height: 215px;
   margin: 15px;
   background-size: cover;
   background-position: center;
 }
-.hidden-nav__panel__image-nav__image p {
+.hidden-nav__image-nav__image p {
   width: 100%;
   padding: 10px 0;
-  background: #FF6B6B;
-  color: #fff;
-  text-shadow: 1px 1px #000;
+  background: #4ECDC4;
   text-align: center;
-}
-.open-nav .hidden-nav {
-  transform: translateX(0%);
-}
-.open-nav .hidden-nav__hide {
-  opacity: 1;
-  visibility: visible;
 }
 .hidden-nav__title {
   text-align: center;
   padding: 10px;
   font-size: 1.5rem;
-  color: white;
+  color: #fff;
   text-shadow: 1px 1px #000;
 }
 
-#mob-nav-1 {
-  background-image: url("../../assets/images/mob-nav-1.jpg");
+.open-nav {
+  transform: translateX(0%);
 }
-
-#mob-nav-2 {
-  background-image: url("../../assets/images/mob-nav-2.jpg");
-}
-
-#mob-nav-3 {
-  background-image: url("../../assets/images/mob-nav-3.jpg");
-}
-
-#mob-nav-4 {
-  background-image: url("../../assets/images/mob-nav-4.jpg");
+.open-nav__hide {
+  opacity: 1;
+  visibility: visible;
 }
 
 .scroll-top {
