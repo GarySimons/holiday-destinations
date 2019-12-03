@@ -1,0 +1,30 @@
+.scroll-top {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    padding: 20px 40px;
+    transition: $default-transition;
+    opacity: 0;
+
+    &__link {
+        background: $navigation-color;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: $default-box-shadow;
+        transition: $default-transition;
+
+        &__icon {
+            color: $white-color;
+        }
+
+        &:hover {
+            background: darken($navigation-color, 10%);
+            color: darken($white-color, 10%);
+        }
+    }
+
+    &__show {
+        opacity: 1 !important;
+    }
+}
