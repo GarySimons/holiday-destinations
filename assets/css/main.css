@@ -441,10 +441,31 @@ html {
   z-index: 1;
   background: rgba(0, 0, 0, 0.4);
 }
+.main-header__logo {
+  padding-left: 20px;
+}
+.main-header__logo img {
+  max-width: 70%;
+}
+@media (max-width: 767px) {
+  .main-header__logo img {
+    max-width: 40%;
+  }
+}
 .main-header__nav {
   display: flex;
   list-style: none;
   padding: 20px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 1200px) {
+  .main-header__nav {
+    left: 40%;
+    transform: translate(-30%, -50%);
+  }
 }
 .main-header__nav__item {
   padding: 0 0 0 40px;
