@@ -1,7 +1,7 @@
 
 # Holiday Destinations 🎪
 
-![Mutli Device Screenshot](https://geomint.github.io/holiday-destinations-v2/wireframes/mutli-device-screenshot.png)
+![Mutli Device Screenshot](https://github.com/Geomint/holiday-destinations-v2/blob/master/wireframes/multi-device-screenshot.png?raw=true)
 
 
 Thankyou for visiting my project, please feel free to read through the Read-me and browse my project, if you have any questions or suggestions drop me an email at george.pyott@googlemail.com. Happy Coding!
