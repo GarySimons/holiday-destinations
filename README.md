@@ -26,6 +26,7 @@ Thankyou for visiting my project, please feel free to read through the Read-me a
     *  Features that will be implemented in the future
 * Technologies Used 👨‍💻
 * Testing 🔌
+* Bugs 🐞
 * Deployment 🚀
 * Credits 💳
 
@@ -96,8 +97,6 @@ Using learned knowledge from prior research, bright and vibrant colours have a h
 * Navigation Colour: #FF6B6B <strong>“Bittersweet”</strong> This bursting colour provides excellent contrast for the dark blues, with the added benefit of being a blend of orange/red which influences a hightened emotional response.
 * Default Body Colour: #F7fff7 <strong>"Mint White"</strong> This off white colour will provide a discreet contrast from the blue theme i've got within this project, a subtle yet effective default body colour.
 * Default Body Panel Colour: #2a3439 <strong>"Darkest Blue"</strong> This dark shade of blue will be used to provide backgrounds to specific panels of interest especially on the hero section of the website.
-
-
 
 ##### Styling: 
 
@@ -236,6 +235,26 @@ During planning for this project i knew that i needed to have a bulletproof test
 * <strong>Result</strong> 🏆: A user can interact with the map and the information served, difference information is served based on the users interaction.
 * <strong>Verdict</strong> ✅: This test passed based on the level of interaction a user can have with the Google map.
 
+## Bugs: 🐞
+
+#### Bugs During Development:
+
+During the development process for this project i was fortuante to not have to battle with many annoying bugs. Listed below are a few issues that i faced and overcame during the course of the project.
+
+For loop error:
+* <strong>Bug</strong> 🕷: The for loop in the main function initMap() was iterating through the array in the JSON object but would only print out the last item in the array for each index.
+* <strong>Fix</strong> 🔧: Putting the 'dataType' request inside '[ ]' brackets fixed the bug and fixed the for loop bug. 
+* <strong>Verdict</strong> ✅: This bug was squashed thanks to help from the Tutors over at Code Institute!
+
+Unexpected horizontal scroll for entire page:
+* <strong>Bug</strong> 🕷: A few elements were escaping the boundaries of the website and were causing an unwanted horizontal scroll.
+* <strong>Fix</strong> 🔧: Using Unicorn Revealer (See credits for link) I was easily able to find the offending element and fix accordingly. 
+* <strong>Verdict</strong> ✅: This bug was squashed easily and meant I could continue to progress.
+
+#### Known Bugs:
+
+* A bug exists on scroll after clicking a link to navigate the site, due to the nature of the fixed nav-bar it slightly overlaps the content it scrolls to, in the future i would fix this issue to have an offset on the scroll to not lose content under the nav-bar.
+
 ## Deployment: 🚀
 This project was deployed on Github pages.
 ## Closing Notes:
@@ -247,3 +266,4 @@ Developing this project has taught me alot about how to provide users with appro
 * <a href="http://getbem.com/introduction/">B.E.M</a>
 * <a href="https://www.crazyegg.com/blog/colors-proven-to-boost-sales/">Colour Research</a>
 * <a href="https://coolors.co/">Coolors.co</a>
+* <a href="https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB">Unicorn Revealer</a>
