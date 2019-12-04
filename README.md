@@ -154,16 +154,19 @@ View my wireframes <a href="https://github.com/Geomint/holiday-destinations-v2/t
 * <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a>
 * <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a>
 * <a href="https://www.w3schools.com/js/">JavaScript</a>
+* <a href="https://www.json.org/json-en.html">JSON</a>
 
 ### Tools & Libraries:
 
 * <a href="https://jquery.com/">jQuery</a>
-* <a href="https://github.com/">GitHub</a>
+* <a href="https://git-scm.com/">Git</a>
+* <a href="https://getbootstrap.com/">Bootstrap</a>
+* <a href="https://fontawesome.com/icons?d=gallery">Font-Awesome Icons</a>
 * <a href="https://developers.google.com/maps/documentation/javascript/tutorial">Google Maps</a>
 * <a href="https://kenwheeler.github.io/slick/">Slick Carousel</a>
 * <a href="https://gulpjs.com/">Gulp.js</a>
 * <a href="https://sass-lang.com/">SASS/SCSS</a>
-* <a href="https://www.json.org/json-en.html">JSON</a>
+
 
 ## Testing: 🔌
 As this was my first time being exposed to the Google Maps API, my testing was extremely thorough, making sure that I scrutinized every line of code and detail not only meant that the code ran without issues, but also allowed me to learn more in depth how to work with the API. Testing involved my own personal testing and also that of my peers and fellow students.
