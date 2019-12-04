@@ -258,7 +258,35 @@ Here is a list of known bugs that exist on the site: ❌
 * A bug exists on scroll after clicking a link to navigate the site, due to the nature of the fixed nav-bar it slightly overlaps the content it scrolls to, in the future I would fix this issue to have an offset on the scroll to not lose content under the nav-bar.
 
 ## Deployment: 🚀
-This project was deployed on Github pages.
+
+Holiday Destinations was developed on GitPod, using git and GitHub to host the repository.
+
+When deploying Holiday Destinations using GitHub Pages the following steps were made:
+
+* Opened up <strong>GitHub</strong> in the browser.
+* Signed in using username and password.
+* Selected my <strong>repositories</strong>.
+* Navigated to <strong>'/Geomint/holiday-destinations'</strong>.
+* In the top navigation clicked <strong>'settings'</strong>.
+* Scrolled down to the <strong>GitHub Pages</strong> area. 
+* Selected <strong>'Master Branch'</strong> from the <strong>'Source'</strong> dropdown menu.
+* Clicked to confirm my selection.
+* Holiday Destinations now live on GitHub Pages.
+
+#### Running Holiday Destinations Locally
+
+Cloning Holiday Destinations from GitHub:
+
+* Navigate to <strong>'/Geomint/holiday-destinations'</strong>.
+* Click the green <strong>'Clone or Download'</strong> button.
+* Copy the <strong>url</strong> in the dropdown box.
+* Using your favourite <strong>IDE</strong> open up your preferred <strong>terminal</strong>.
+* Navigate to your desired file location. 
+* Copy the following <strong>code</strong> and input it into your terminal to clone Holiday Destinations.
+ ```git
+  git clone https://github.com/Geomint/holiday-destinations.git
+   ```
+
 ## Closing Notes:
 Developing this project has taught me alot about how to provide users with appropriate data based on their interaction, working with new concepts like JSON objects has pushed my knowledge further and has helped me better understand how to manipulate this type of code. In the future I would like to implement other features like the ability to add certain packages to a wishlist to then review, compare and send to the company for further enquiry. As mentioned in the testing section this was the first time using the Google Maps API and therefore was a challenge to get to grips, however thanks to the helpful documentation I was able to achieve a solution in-line with the user requirements and also my plan made in testing.
 ## Credits: 💳
