@@ -253,7 +253,9 @@ Unexpected horizontal scroll for entire page:
 
 #### Known Bugs:
 
-* A bug exists on scroll after clicking a link to navigate the site, due to the nature of the fixed nav-bar it slightly overlaps the content it scrolls to, in the future i would fix this issue to have an offset on the scroll to not lose content under the nav-bar.
+Here is a list of known bugs that exist on the site: ❌
+
+* A bug exists on scroll after clicking a link to navigate the site, due to the nature of the fixed nav-bar it slightly overlaps the content it scrolls to, in the future I would fix this issue to have an offset on the scroll to not lose content under the nav-bar.
 
 ## Deployment: 🚀
 This project was deployed on Github pages.
