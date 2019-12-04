@@ -167,7 +167,6 @@ View my wireframes <a href="https://github.com/Geomint/holiday-destinations-v2/t
 * <a href="https://gulpjs.com/">Gulp.js</a>
 * <a href="https://sass-lang.com/">SASS/SCSS</a>
 
-
 ## Testing: 🔌
 As this was my first time being exposed to the Google Maps API, my testing was extremely thorough, making sure that I scrutinized every line of code and detail not only meant that the code ran without issues, but also allowed me to learn more in depth how to work with the API. Testing involved my own personal testing and also that of my peers and fellow students.
 
