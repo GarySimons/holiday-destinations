@@ -1,12 +1,15 @@
 const optionsNav = $('.options');
 const scrollBtn = $('.scroll-top');
 const contactForm = $('#contact-form');
+const fixedHeader = $('.main-header');
 
  $(window).scroll(function() {
-    if ($(window).scrollTop() > 300) {
-      scrollBtn.addClass('scroll-top__show');
+    if ($(window).scrollTop() > 0) {
+        scrollBtn.addClass('scroll-top__show');
+        fixedHeader.addClass('main-header__scrolling');
     } else {
-      scrollBtn.removeClass('scroll-top__show');
+        scrollBtn.removeClass('scroll-top__show');
+        fixedHeader.removeClass('main-header__scrolling');
     }
   });
 
