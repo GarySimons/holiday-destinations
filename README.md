@@ -4,7 +4,7 @@
 ![Mutli Device Screenshot](https://github.com/Geomint/holiday-destinations-v2/blob/master/wireframes/multi-device-screenshot-image.png?raw=true)
 
 
-Thankyou for visiting my project, please feel free to read through the Read-me and browse my project, if you have any questions or suggestions drop me an email at george.pyott@googlemail.com. Happy Coding!
+Thankyou for visiting my project, please feel free to read through the Read-me and browse my project, if you have any questions or suggestions head to my Github contact details. Happy Coding!
 👨‍💻
 ## Contents:
 
