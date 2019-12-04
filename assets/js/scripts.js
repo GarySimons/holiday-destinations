@@ -67,6 +67,12 @@ function initMap() {
 
                 const setPos = map.setCenter(marker.getPosition())
 
+                $(document).ready(function() {
+                    google.maps.event.addListener(map, "idle", function(){
+                        google.maps.event.trigger(map, 'resize'); 
+                    });
+                }); 
+
                 const infoWindowLayout = `
                     <div class="info-window">
                         ${marker.content}
