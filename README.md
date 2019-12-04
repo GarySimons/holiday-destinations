@@ -136,6 +136,7 @@ The background images I chose to use on the banner are sourced from royalty free
 ## Wireframes: 🔧
 I built the wireframes for this project using Balsamiq mockups + Moqups. First I started by doing a very basic wireframe for Mobile/Tablet/Desktop on Balsamiq - these were to get a basic understanding of how structurally elements would appear on the page. Next I moved onto Moqups to produce a more fleshed out wireframe for each device size, this time using a bit more colour and style.
 
+View my wireframes <a href="https://github.com/Geomint/holiday-destinations-v2/tree/master/wireframes">here.</a>
 
 ## Features: 🎡
 
