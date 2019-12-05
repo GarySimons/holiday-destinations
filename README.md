@@ -164,7 +164,9 @@ View my wireframes <a href="https://github.com/Geomint/holiday-destinations-v2/t
 * <a href="https://developers.google.com/maps/documentation/javascript/tutorial">Google Maps</a>
 * <a href="https://kenwheeler.github.io/slick/">Slick Carousel</a>
 * <a href="https://gulpjs.com/">Gulp.js</a>
+* * Using Gulp I minified/uglified my <strong>CSS</strong> and <strong>JS</strong> code to increase the load speed of the respective files.
 * <a href="https://sass-lang.com/">SASS/SCSS</a>
+* <a href="https://tinypng.com/">TinyPng (image compression)</a>
 
 ## Testing: 🔌
 As this was my first time being exposed to the Google Maps API, my testing was extremely thorough, making sure that I scrutinized every line of code and detail not only meant that the code ran without issues, but also allowed me to learn more in depth how to work with the API. Testing involved my own personal testing and also that of my peers and fellow students.
