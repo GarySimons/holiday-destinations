@@ -160,11 +160,10 @@ View my wireframes <a href="https://github.com/Geomint/holiday-destinations-v2/t
 * <a href="https://jquery.com/">jQuery</a>
 * <a href="https://git-scm.com/">Git</a>
 * <a href="https://getbootstrap.com/">Bootstrap</a>
-* <a href="https://fontawesome.com/icons?d=gallery">Font-Awesome Icons</a>
+* <a href="https://fontawesome.com/icons?d=gallery">Font-Awesome</a>
 * <a href="https://developers.google.com/maps/documentation/javascript/tutorial">Google Maps</a>
 * <a href="https://kenwheeler.github.io/slick/">Slick Carousel</a>
 * <a href="https://gulpjs.com/">Gulp.js</a>
-* * Using Gulp I minified/uglified my <strong>CSS</strong> and <strong>JS</strong> code to increase the load speed of the respective files.
 * <a href="https://sass-lang.com/">SASS/SCSS</a>
 * <a href="https://tinypng.com/">TinyPng (image compression)</a>
 
@@ -223,6 +222,12 @@ During planning for this project i knew that i needed to have a bulletproof test
 * <strong>Plan</strong> 📝: During planning for this project i knew that i needed to include some sort of form validation on the contact form. Including a ‘honey-pot’ and also the built in ‘required’ attribute in HTML5.
 * <strong>Implementation</strong> 🏭:  During implementation of this feature adding the ‘required’ attribute to the form was very simple and worked as expected. I ran into a few issues with the honey-pot feature however testing different responses led me to a solution and the contact form will not send if a specific hidden input field has content.
 * <strong>Result</strong> 🏆:  Both of these features work as expected after testing.
+* <strong>Verdict</strong> ✅: This test passed based on the expected behaviour.
+
+<strong>Gulp.js (minify/uglify)</strong>
+* <strong>Plan</strong> 📝:  I wanted to use a minifier/uglifier in attempt to increase the load time of my JavaScript and CSS files, I read online that this is good for reducing the bandwidth used on loading sites.
+* <strong>Implementation</strong> 🏭: Using the excellent documentation for the various Gulp.js plugins/tasks I was easily able to creaate 2 gulp tasks to minify the JS and CSS code into a .min file, then all I had to do was update the path in the HTML and the code would load alot quicker.
+* <strong>Result</strong> 🏆: The minification of both JS and CSS files worked as expected.
 * <strong>Verdict</strong> ✅: This test passed based on the expected behaviour.
 
 <strong>Pop-Out Navigation (mobile/tablet) -</strong>
