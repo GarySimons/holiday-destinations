@@ -224,7 +224,7 @@ During planning for this project i knew that i needed to have a bulletproof test
 * <strong>Result</strong> 🏆:  Both of these features work as expected after testing.
 * <strong>Verdict</strong> ✅: This test passed based on the expected behaviour.
 
-<strong>Gulp.js (minify/uglify)</strong>
+<strong>Gulp.js (minify/uglify) - </strong>
 * <strong>Plan</strong> 📝:  I wanted to use a minifier/uglifier in attempt to increase the load time of my JavaScript and CSS files, I read online that this is good for reducing the bandwidth used on loading sites.
 * <strong>Implementation</strong> 🏭: Using the excellent documentation for the various Gulp.js plugins/tasks I was easily able to creaate 2 gulp tasks to minify the JS and CSS code into a .min file, then all I had to do was update the path in the HTML and the code would load alot quicker.
 * <strong>Result</strong> 🏆: The minification of both JS and CSS files worked as expected.
@@ -236,7 +236,7 @@ During planning for this project i knew that i needed to have a bulletproof test
 * <strong>Result</strong> 🏆: The pop out nav works as intended and provides another level of navigation for users on a mobile/tablet device.
 * <strong>Verdict</strong> ✅: This test passed based on the expected behaviour.
 
-<strong>Interactive Google Maps</strong>
+<strong>Interactive Google Maps - </strong>
 * <strong>Plan</strong> 📝: As this was going to be the ‘hero section’ of the page I set aside a lot of time to plan this feature thoroughly as to make sure it was implemented efficiently, not using this API before i was anxious to jump straight into coding. I planned to implement this feature so that users could request certain sections of data based on their click, and then display these results in a way that was simple and easy to read/navigate.
 * <strong>Implementation</strong> 🏭: Alot of testing was conducted during the development of this feature. During the installation of this feature, after a user-review, i decided to use a JSON object to store information about each destination for each place. This allowed me to have much cleaner JS code and also work with a concept/tool I have not used before, JSON. Thanks to the great documentation over at Google, implementation of the other basic features of this section was relatively simple.
 * <strong>Result</strong> 🏆: A user can interact with the map and the information served, difference information is served based on the users interaction.
