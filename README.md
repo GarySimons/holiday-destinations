@@ -133,7 +133,7 @@ BEM Stands for block element modifier, and is a way of writing CSS/SASS code in 
 The background images I chose to use on the banner are sourced from royalty free websites, they showcase different types of ‘lifestyle’ shots on different holiday destinations. Arguably large images like the ones mentioned are great for encouraging sales and leads. I manually resize the images using a tool called Gimp, having accurately sized images reduces the load time of the website.
 
 ## Wireframes: 🔧
-I built the wireframes for this project using Balsamiq mockups + Moqups. First I started by doing a very basic wireframe for Mobile/Tablet/Desktop on Balsamiq - these were to get a basic understanding of how structurally elements would appear on the page. Next I moved onto Moqups to produce a more fleshed out wireframe for each device size, this time using a bit more colour and style.
+I built the wireframes for this project using <a href="https://balsamiq.com/">Balsamiq mockups</a> + Moqups. First I started by doing a very basic wireframe for Mobile/Tablet/Desktop on Balsamiq - these were to get a basic understanding of how structurally elements would appear on the page. Next I moved onto Moqups to produce a more fleshed out wireframe for each device size, this time using a bit more colour and style. You can view this wireframe <a href="https://app.moqups.com/w7v4igcNUn/view/page/aa9df7b72">here</a>.
 
 View my wireframes <a href="https://github.com/Geomint/holiday-destinations-v2/tree/master/wireframes">here.</a>
 
