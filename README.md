@@ -83,7 +83,7 @@ The goal of this project is to help users find ideal holiday locations based on 
 The theme of this project is holidays and vacations, therefore my design choices are heavily influenced by positive colours and motifs. Using the resources in <a href='https://www.crazyegg.com/blog/colors-proven-to-boost-sales/'>this</a> blog I was able to pick out a colour scheme that has been proven to boost sales/interaction with a web page.
 
 ##### Fonts: 
-I chose to use the font LATO as it showcases a very simplistic style which compliments the minimalist nature of the overall site design. The focus of the content is to provide an informative experience for the customer, which heavily influenced my decision to choose a font that isn't too ambiguous.
+I chose to use the font <a href="https://fonts.google.com/?query=lato&selection.family=Lato">LATO</a> as it showcases a very simplistic style which compliments the minimalist nature of the overall site design. The focus of the content is to provide an informative experience for the customer, which heavily influenced my decision to choose a font that isn't too ambiguous.
 
 ##### Icons: 
 The icons used are self explanatory so that the user does not need to struggle to interpret what the icon will actually do. I use the icon ‘bars’ from font-awesome icons, to display the classic ‘burger-button’ on tablet and mobile devices, this is well known in the industry as being a point for navigation. I had to make sure that the icon was big enough on smaller devices to ensure easy access.
